@@ -13,6 +13,7 @@ You could use the following google drive link to download CoT Collection.
 ```
 https://drive.google.com/drive/folders/1NoqtRweV6SggEKnDnvJTa-FIvEynkijg?usp=sharing
 ```
+Note that we also provide CoT rationales for 5 languages (Korean, Japanese, Chinese, French, Russian). These files include direct instances without CoT rationales.
 
 We're also planning to upload CoT Collection to huggingface datasets, so stay tuned!
 
