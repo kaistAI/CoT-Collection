@@ -8,6 +8,7 @@ Overview of CoT Collection.
   <img src="./CoT_Collection_Overview.png" width="100%" height="80%">
 </p>
 
+
 ## Download Dataset
 You could use the following google drive link to download CoT Collection.
 ```
@@ -17,9 +18,14 @@ Note that we also provide CoT rationales for 5 languages (Korean, Japanese, Chin
 
 We're also planning to upload CoT Collection to huggingface datasets, so stay tuned!
 
-## Code
 
+## Code
 We'll currently refactoring our code as well! We'll upload it soon:)
+
+
+## License
+CoT Collection is only for non-commercial use and is subject to OpenAI's Terms of Use for the generated data. If you suspect any violations, please reach out to us.
+
 
 ## Citation
 If you find this useful, please consider citing our paper:
@@ -31,6 +37,7 @@ If you find this useful, please consider citing our paper:
   year={2023}
 }
 ```  
+
 
 ## Point of contact
 For any questions about the implementation or content of the paper, you could contact me via the following email:)
