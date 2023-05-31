@@ -1,0 +1,110 @@
+[Example 1]
+[Instruction and Question]
+In this task, you're given a paragraph from the research paper and your task is to generate a suitable title for the research paper based on the given paper. Under 100 words is a good title length.\n\nIn this study, we report the complete genome sequence of two contemporary human coronavirus OC43 (HCoV-OC43) strains detected in 2003 and 2004, respectively. Comparative genetic analyses of the circulating strains and the prototype HCoV-OC43 strain (ATCC VR759) were performed. Remarkably, a lower than expected similarity is found between the complete genomes and more in particular between the spike genes of the BE03 and BE04 strains. This finding suggests the existence of two genetically distinct HCoV-OC43 strains, circulating in Belgium in 2003 and 2004. Spike gene sequencing of three additional 2003 and two additional 2004 HCoV-OC43 strains, and subsequent phylogenetic analysis confirm this assumption. Compared to the ATCC prototype HCoV-OC43 strain, an important amino acid substitution is present in the potential cleavage site sequence of the spike protein of all contemporary strains, restoring the N-RRXRR-C motif, associated with increased spike protein cleavability in bovine coronaviruses. We here describe specific characteristics associated with circulating HCoV-OC43 strains, and we provide substantial evidence for the genetic variability of HCoV-OC43. D
+
+[Answer]
+Circulation of genetically distinct contemporary human coronavirus OC43 strains
+
+[Rationale]
+The title should provide evidence for the existence of two genetically distinct HCoV-OC43 strains, which were circulating in Belgium in 2003 and 2004, and describes specific characteristics associated with these strains. Also, one key aspect to consider in this paper is the genetic variability of HCoV-OC43 and the potential implications for increased spike protein cleavability. My suggestion would be: "Circulation of genetically distinct contemporary human coronavirus OC43 strains".
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task, you are given a sentence from the research paper and the category to which it belongs. Your task is to classify whether the given category is correct or not by providing \"True\" and \"False\", respectively. Here are the definitions for the categories: Background (Why is this problem important? What relevant works have been created before? What is still missing in the previous works? What are the high-level research questions? How might this help other research or researchers?), Purpose (What specific things do the researchers want to do? What specific knowledge do the researchers want to gain? What specific hypothesis do the researchers want to test?), Method (How did the researchers do the work or find what they sought? What are the procedures and steps of the research?), or Finding (What did the researchers find out? Did the proposed methods work? Did the thing behave as the researchers expected?). \",\n\nSentence: Systems biology offers considerable promise in uncovering novel pathways by which viruses and other microbial pathogens interact with host signaling and expression networks to mediate disease severity. \n Section: method
+
+[Answer]
+False
+
+[Rationale]
+The sentence describes the promise of systems biology in uncovering novel pathways by which viruses and other microbial pathogens interact with host signaling and expression networks to mediate disease severity. This is a background statement that highlights the importance of the problem and the relevance of the research area. Therefore, the correct category for this sentence is "Background", not "Method". Hence, the answer is False.
+
+
+
+[Example 3]
+[Instruction and Question]
+Given an entity as input, output another entity which is part of the input entity. These are entities of meronym. In linguistics, meronymy is a semantic relation between a meronym denoting a part and a holonym denoting a whole. In simpler terms, a meronym (i.e., output entity) is in a part-of relationship with its holonym (i.e., input entity).\n\ngallinules
+
+[Answer]
+talon
+
+[Rationale]
+A gallinule is a type of bird, and one of its parts is the talon, which is a sharp claw on its foot used for grasping prey or perching on branches. Therefore, talon is a meronym of gallinules.
+
+
+
+[Example 4]
+[Instruction and Question]
+Indicate the presence of numerical data in the abstract (whether numerical data plays a key role in medical records), solely using the information from the abstract.\n\nAbstract: A general approach to the child with foot pain has been described. In that the pediatrician is so often the recipient of parent's questions about children's shoes, he or she should be aware of problems relating to poorly fitting shoes, probably the most common source of complaints of foot pain in children. With a systematic approach, the pediatrician is very capable of managing the majority of such complaints. \nQuestion: Does the abstract contain any numerical data?
+
+[Answer]
+No
+
+[Rationale]
+It provides general information about foot pain in children and emphasizes the importance of proper shoe fit. However, it does not include any numerical values or measurements. So the answer is "No".
+
+
+
+[Example 5]
+[Instruction and Question]
+In this task, you are given a paragraph, event and an entity. The event is part of the given paragraph and it changes the state of the entity. Your task is to classify the state of the entity into three classes: 1) not exist, 2) unknown location and 3) known location. \"not exist\" means the entity doesn't exist in that state anymore. \"unknown location\" means the entity exists in that state but location is unknown. \"known location\" means the entity exists and location is known. \n\n \"process paragraph : : Food enters the small intestine. The small intestine produces hormones. The hormones cause the pancreas to produce enzymes for digestion. The enzymes travel from the pancreas to the small intestine through tubes. The enzymes help the intestines digest the food. The pancreas produces the hormones insuline and glucagon. The hormones control the amount of sugar in the blood. \", \"event : The small intestine produces hormones.\", \"entity : food\"
+
+[Answer]
+known location
+
+[Rationale]
+The state of the entity "food" is still present and it is being processed by the small intestine and the enzymes produced by the pancreas, so its location is known to be in the small intestine. Therefore, the answer is "known location".
+
+
+
+[Example 6]
+[Instruction and Question]
+In this task, you are given an abstract of article. Your task is to generate label \"True\" if abstract is structured, otherwise generate \"False\". A structured abstract is composed of a topic sentence (or key sentence), relevant supporting sentences, and a closing (or transition) sentence. This structure is key to keeping your abstract focused on the main idea and creating a clear and concise image.\n\nOBJECTIVE A20 is a TNF-inducible primary response gene, which has been found to have antiapoptotic function in several cancer cells. This study investigates A20 expression in human glioma tissues and four glioma cell lines, and its effect on tumorigenesis of glioma cells and a mouse tumor model.   \n METHODS Human glioma tissue samples and cells were subject to reverse transcription-PCR (RT-PCR), western blotting and immunohistochemistry. Glioma cells was tested by flow cytometry. A xenograft tumor model in mice was utilized to examine the knock-down effect of specific A20 siRNAs on tumorigenesis.   \n RESULTS A20 was overexpressed in clinical glioma tissue samples (63.9%) and correlated with clinical staging. All four human glioma cell lines expressed A20, among which U87 displayed the strongest expression signals. Inhibiting A20 expression by siRNAs in vitro reduced the growth rates of glioma cells and resulted in G1/S arrest and increased apoptosis. In a mouse tumor model, local administration of siRNA significantly suppressed solid tumor growth.   \n CONCLUSIONS A20 was overexpressed both in human glioma tissues and cell lines, and inhibiting A20 expression greatly slowed tumor cell growth in culture and in mice. These findings indicated that A20 is involved in tumorigenesis of human glioma, and may serve as a future therapeutic target.
+
+[Answer]
+True
+
+[Rationale]
+The abstract includes a topic sentence that states the objective of the study ("OBJECTIVE A20 is a TNF-inducible primary response gene, which has been found to have antiapoptotic function in several cancer cells. This study investigates A20 expression in human glioma tissues and four glioma cell lines, and its effect on tumorigenesis of glioma cells and a mouse tumor model."), relevant supporting sentences that describe the methods and results of the study, and a closing sentence that summarizes the main findings and conclusions of the study. This structure helps to keep the abstract focused and concise, and allows readers to easily understand the main idea and significance of the research. So the answer is “True”.
+
+
+
+[Example 7]
+[Instruction and Question]
+In this task, you are given two statements. The task is to output whether a given textual premise, i.e. Statement 2, entails or implies a given scientific fact, i.e. Statement 1. The output should be 'entails' if Statement 2 supports Statement 1 and should be 'neutral' otherwise.\n\nSentence 1: Angiosperms is the term for flowering seed plants. Sentence 2: Angiosperms are also known as flowering plants because they produce flowers in which seeds are produced and in which they develop.
+
+[Answer]
+entails
+
+[Rationale]
+Statement 2 provides additional information that supports the scientific fact stated in Statement 1. Statement 1 defines angiosperms as "flowering seed plants", and Statement 2 explains that the reason they are called "flowering plants" is because they produce flowers that contain seeds and that serve as the site of seed development. Therefore, Statement 2 provides evidence that supports the definition of angiosperms provided in Statement 1. As a result, Statement 2 entails or implies Statement 1.
+
+
+
+[Example 8]
+[Instruction and Question]
+You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.\n\nPremise: For example, airway resistance in the ivy leaf group decreased by 24% on day three of the study, compared to only 5% in the placebo group. \n Hypothesis: Poison ivy typically has three groups of leaves.
+
+[Answer]
+neutral
+
+[Rationale]
+The premise provides information about a study that measured airway resistance in the ivy leaf group and the placebo group. It does not provide any information about the number of groups that poison ivy leaves typically have. Therefore, there is no direct connection between the premise and the hypothesis, and the premise does not provide enough information to support or refute the claim made in the hypothesis. As a result, the output should be "neutral".
+
+
+
+[Example 9]
+[Instruction and Question]
+In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.\n\nThe description of neural computations in the field of neuroscience relies on two competing views: (i) a classical single-cell view that relates the activity of individual neurons to sensory or behavioural variables, and focuses on how different cell classes map onto computations; (ii) a more recent population view that instead characterises computations in terms of collective neural trajectories, and focuses on the dimensionality of these trajectories as animals perform tasks. How the two key concepts of cell classes and low-dimensional trajectories interact to shape neural computations is however currently not understood. Here we address this question by combining machine-learning tools for training RNNs with reverse-engineering and theoretical analyses of network dynamics. We introduce a novel class of theoretically tractable recurrent networks: low-rank, mixture of Gaussian RNNs. In these networks, the rank of the connectivity controls the dimensionality of the dynamics, while the number of components in the Gaussian mixture corresponds to the number of cell classes. Using back-propagation, we determine the minimum rank and number of cell classes needed to implement neuroscience tasks of increasing complexity. We then exploit mean-field theory to reverse-engineer the obtained solutions and identify the respective roles of dimensionality and cell classes. We show that the rank determines the phase-space available for dynamics that implement input-output mappings, while having multiple cell classes allows networks to flexibly switch between different types of dynamics in the available phase-space. Our results have implications for the analysis of neuroscience experiments and the development of explainable AI.
+
+[Answer]
+A theoretical analysis of a new class of RNNs, trained on neuroscience tasks, allows us to identify the role of dynamical dimensionality and cell classes in neural computations
+
+[Rationale]
+Here's a brief summary:\nA theoretical analysis of a new class of RNNs, trained on neuroscience tasks, allows us to identify the role of dynamical dimensionality and cell classes in neural computations.
+
+
+
+[Example 10]
+[Instruction and Question]

@@ -1,0 +1,135 @@
+[Example 1]
+[Instruction and Question]
+Extract the answer to the question from the following context.
+Question: Architects have to not only be talented designers, but at the other end of the spectrum, have a talent for the more mundane what?
+Context: Architecture has to do with planning and designing form, space and ambience to reflect functional, technical, social, environmental and aesthetic considerations. It requires the creative manipulation and coordination of materials and technology, and of light and shadow. Often, conflicting requirements must be resolved. The practice of Architecture also encompasses the pragmatic aspects of realizing buildings and structures, including scheduling, cost estimation and construction administration. Documentation produced by architects, typically drawings, plans and technical specifications, defines the structure and/or behavior of a building or other kind of system that is to be or has been constructed.
+
+[Options]
+Not Given
+
+[Answer]
+pragmatic aspects of realizing buildings and structures
+
+[Rationale]
+The context states architects must have a talent for in addition to design. This includes activities such as scheduling, cost estimation and construction administration which are essential to creating a physical structure. 
+
+Which is why the answer extracted from the context is "pragmatic aspects of realizing buildings and structures".
+
+
+
+[Example 2]
+[Instruction and Question]
+Please answer correctly the following question related to the paragraph below. 
+Which tribe was less affected by the disruption of ocean food webs?
+
+Two related native tribes live thousands of miles away from each other. Ana tribe lives near the South Pole in Antarctica, while Momu tribe lives in Northern Alaska near the North Pole.
+
+Hint: Unfortunately, the layer of good ozone is being destroyed by air pollution. The chief culprits are chlorine and bromine gases. They are released in aerosol sprays, coolants, and other products. Loss of ozone has created an ozone hole over Antarctica. Ozone depletion results in higher levels of UV radiation reaching Earth. In humans, this increases skin cancers and eye cataracts. It also disturbs the nitrogen cycle, kills plankton, and disrupts ocean food webs. The total loss of the ozone layer would be devastating to most life. It’s rate of loss has slowed with restrictions on pollutants, but it is still at risk.
+
+[Options]
+Not Given
+
+[Answer]
+Momu
+
+[Rationale]
+The paragraph mentions the negative impacts of the loss of the ozone layer, specifically the disruption of ocean food webs. The Ana tribe lives near the South Pole in Antarctica, where the ozone hole is located, while the Momu tribe lives near the North Pole.
+
+Thus, based on the context of the ozone depletion affecting the ocean food webs, it can be inferred that the Momu tribe was less affected by the disruption of ocean food webs. 
+
+Therefore, the answer is Momu.
+
+
+
+[Example 3]
+[Instruction and Question]
+Given the below context:
+
+Feeling unsettled, Etty left Rome for Venice, intending to remain there for 10 days and then return to England. Evans preferred to remain in Rome, so Etty travelled alone, pausing briefly in Florence and in Ferrara (where he stopped to kiss the armchair of Ludovico Ariosto). The painter Charles Lock Eastlake, then resident in Rome, had provided Etty with a letter of introduction to Harry D'Orville, British Vice consul in Venice; D'Orville was so impressed with Etty that he arranged for him to stay in his own house, rather than in lodgings. Etty had long considered Venice his spiritual home and "The hope and idol of my professional life", and had often wondered why, given its artistic importance, so few English travellers visited the city. He was not disappointed. Throughout the remainder of his life, he looked back on his visit to Venice with great fondness, writing shortly before his death that "Venezia, cara Venezia! thy pictured glories haunt my fancy now!"
+Although Etty had only intended to stay for 10 days, he was so taken with Venice that he remained for over seven months. He fell into a routine of copying paintings in Venetian collections by day, and attending the life class of the Venetian Academy of Fine Arts by night, producing around 50 oil paintings in total as well as numerous pencil sketches. He was extremely impressed with the high quality of the Venetian Academy; the instructors in their turn were extremely impressed with the quality of Etty's work, in particular his flesh tones. He acquired the nickname of ""Il Diavolo"" owing to the high speed at which he was able to paint, and watching him at work became something of a spectacle in its own right; luminaries including Gioachino Rossini and Ladislaus Pyrker (then Patriarch of Venice) came to watch him paint. 
+So devoted was Etty to his studies in Venice that he exhibited no original work in 1823, writing to his brother that "If one spent all the time in painting originals, one might as well, nay better, be at home". The members of the Venetian...
+
+Guess a valid title for it!
+
+[Options]
+Not Given
+
+[Answer]
+William Etty
+
+[Rationale]
+The context is a description of the experiences and events surrounding the British painter William Etty during his visit to Venice. Throughout the text, the focus is on Etty and his actions, thoughts, and feelings, making it clear that he is the main subject of the paragraph. The text mentions his nickname ""Il Diavolo"" and the admiration he received from notable figures like Gioachino Rossini and Ladislaus Pyrker, further emphasizing his central role.
+
+Given the subject matter and focus on Etty, a fitting title for the paragraph could be "William Etty".
+
+
+
+[Example 4]
+[Instruction and Question]
+I want to test the ability of students to read a passage and answer questions about it. Could you please come up with a good question for the passage?
+"Some high-speed black-and-white films, such as Ilford Delta 3200 and Kodak T-MAX P3200, are marketed with film speeds in excess of their true ISO speed as determined using the ISO testing method. For example, the Ilford product is actually an ISO 1000 film, according to its data sheet. The manufacturers do not indicate that the 3200 number is an ISO rating on their packaging. Kodak and Fuji also marketed E6 films designed for pushing (hence the "P" prefix), such as Ektachrome P800/1600 and Fujichrome P1600, both with a base speed of ISO 400."
+
+[Options]
+Not Given
+
+[Answer]
+What is notable about these films?
+
+[Rationale]
+The key point that the passage emphasizes is the difference between the marketed film speeds and the actual ISO speeds of these films.
+The passage raises questions about the marketing practices in the photography industry and the reliability of the information provided to consumers.The manufacturers of these films do not indicate the actual ISO ratings on the packaging, which makes it notable. The passage also mentions that these films are marketed for pushing, which is another notable aspect of these films.
+Thus, the best answer would be: What is notable about these films?"
+
+
+
+[Example 5]
+[Instruction and Question]
+I am a movie director and I just received the following movie plot. 
+Could you help me answer this question? If not, let me know by writing "Not answerable".
+
+Plot title: Bananas
+Movie plot: Fielding Mellish (Woody Allen) is the protagonist, but he does not appear until after the opening credits. The cold open, which featured the assassination of the president of the fictional ""banana republic"" of San Marcos and a coup d'Ã©tat that brings Gen. Emilio Molina Vargas (Carlos Montalban) to power, sets up the situation in which Mellish would become embroiled. The scene was in the form of a championship boxing telecast on Wide World of Sports, with Don Dunphy as the host and Howard Cosell as the commentator.[4] Mellish is a neurotic blue collar man who tries to impress social activist Nancy (Louise Lasser) by trying to get in touch with the revolution in San Marcos. He visits the republic and attempts to show his concern for the native people. However, he is nearly killed by the local caudillo and then saved by the revolutionaries, putting him in their debt. Mellish then learns, clumsily, how to be a revolutionary. When the revolution is successful, the Castro-style leader goes mad, forcing the rebels to place Mellish as their President. When traveling back to the U.S. to obtain financial aid, he reunites with his activist ex-girlfriend and is exposed. In a classic courtroom scene, Mellish tries to defend himself from a series of incriminating witnesses, including a reigning Miss America and a middle-aged African-American woman claiming to be J. Edgar Hoover in disguise. One of the witnesses does provide testimony favorable to Mellish, but the court clerk, when asked to read back this testimony, replies with an entirely different, wholly unfavorable rendition. 
+Mellish is eventually sentenced to prison, but his sentence is suspended on the condition that he does not move into the judge's neighborhood. Nancy then agrees to marry him. The film ends with the between-the-covers consummation of their marriage, an event that was over much more quickly than Nancy had anticipated. Like the opening scene, it was accompanied by Cosell providing commentary.
+
+My question: What is Feilding Mellish's occupation?"
+
+[Options]
+Not Given
+
+[Answer]
+Blue collar worker who becomes president of San Marcos
+
+[Rationale]
+In the movie plot, Feilding Mellish is described as a "neurotic blue collar man". The term "blue collar" refers to a type of job that is typically manual labor or involves working with machinery. Blue collar workers often perform physical labor, as opposed to white collar workers who perform administrative, professional, or managerial work. 
+So, based on this description, we can conclude that Feilding Mellish's occupation at the start of the movie is a blue-collar worker. Later in the movie, Feilding Mellish becomes involved in a revolution in the fictional banana republic of San Marcos and is eventually placed as its president after the previous leader goes mad.
+Therefore, the answer to the question is: "Blue collar worker who becomes President of San Marcos".
+
+
+
+[Example 6]
+[Instruction and Question]
+This article: 
+Shackleton's February 1907 announcement that he intended to base his expedition at the old Discovery headquarters was noted by Scott, whose own future Antarctic plans were at that stage unannounced. In a letter to Shackleton, Scott claimed priority rights to McMurdo Sound. "I feel I have a sort of right to my own field of work," he wrote, adding: "anyone who has had to do with exploration will regard this region primarily as mine".He concluded by reminding Shackleton of his duty of loyalty towards his former commander.
+Shackleton's initial reply was accommodating: "I would like to fall in with your views as far as possible without creating a position that would be untenable to myself". Edward Wilson, asked by Shackleton to mediate, took an even tougher line than Scott. 
+"I think you should retire from McMurdo Sound", he wrote, advising Shackleton not to make any plans to work from anywhere in the entire Ross Sea quarter until Scott decided 
+""what limits he puts on his own rights"". 
+To this Shackleton replied: "There is no doubt in my mind that his rights end at the base he asked for [...] I consider I have reached my limit and I go no further".The matter was unresolved when Scott returned from sea duty in May 1907. Scott pressed for a line of demarcation at 170° W—everything to the west of that line, including Ross Island, McMurdo Sound, and Victoria Land, would be Scott's preserve. Shackleton, with other concerns pressing on him, felt obliged to concede. 
+On 17 May he signed a declaration stating that ""I am leaving the McMurdo base to you"", and that he would seek to land further east, either at the Barrier Inlet visited briefly during the Discovery Expedition, or at King Edward VII Land. He would not touch the coast of Victoria Land at all. It was a capitulation to Scott and Wilson, and meant forfeiting the expedition's aim of reaching the South Magnetic Pole which was located within Victoria Land. 
+Polar historian Beau Riffenburgh believes this was "a promise that should never ethically have been demanded and... 
+
+contains an answer for the question: 
+"What are the specific names of the two men between whom the dispute soured relations?", what is it ?
+
+[Options]
+Not Given
+
+[Answer]
+Shackleton
+
+[Rationale]
+From the given context, the answer obviously seems to be: Shackleton
+
+
+
+[Example 7]
+[Instruction and Question]

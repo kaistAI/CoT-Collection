@@ -1,0 +1,111 @@
+[Example 1]
+[Instruction and Question]
+The input is taken from a negotiation between two participants who take the role of campsite neighbors and negotiate for Food, Water, and Firewood packages, based on their individual preferences and requirements. Given an utterance and recent dialogue context containing past 3 utterances (wherever available), output Yes if the utterance contains the self-need strategy, otherwise output No. self-need is a selfish negotiation strategy. It is used to create a personal need for an item in the negotiation, such as by pointing out that the participant sweats a lot to show preference towards water packages.\n\nContext: '2 packages of both of what?  Water and food?' 'I mean water and food' 'Is food something you need the most of or is it water?'\nUtterance: 'I need 2 packages of both food and water on each'
+
+[Answer]
+No
+
+[Rationale]
+The speaker simply states their need for two packages of food and two packages of water without indicating any particular preference or personal need for either item.\nFor example, if the speaker had said "I need two packages of water because I sweat a lot and need to stay hydrated," that would be an example of the self-need strategy.\nSince the utterance in this case does not use the self-need strategy, the answer is No.
+
+
+
+[Example 2]
+[Instruction and Question]
+You are given a request sent by a user in a human and computer dialogue. Your task is to generate a prediction of what the requester is actually trying to do. The input is a sentence written by the human user, trying to achieve certain objective through this human computer interaction, and the output should be a sentence or two succinctly describing the human user's objective mentioned previously.\n\nTell me about Korean language.
+
+[Answer]
+Find information and resources on the Korean language
+
+[Rationale]
+The objective of the human user is to obtain information about the Korean language. So, I would find information and resources on the Korean language.
+
+
+
+[Example 3]
+[Instruction and Question]
+Read an exchange between SENDER A and SENDER B, and answer whether SENDER A is a 'Bot' or a 'Human'. There are only a maximum of two senders (A and B) per conversation, and there are no conversations where SENDER A and SENDER B are both bots, or both humans; only one sender per conversation can be a bot, and only one can be a human. Knowing this, need only to classify whether SENDER A is 'Human' or 'Bot'; you do not need to write anything about SENDER B. Typically, bots will have a more disjointed manner of speaking, and will make statements that don't relate to each other, don't make coherent sense, or otherwise appear unnatural. Humans will make statements in a more or less coherent and logical way, potentially including asking the bot why the bot is not making sense or contradicting itself.\n\nSENDER A: In Las Vegas, you're an afterthought, you're an old so while we could go gambling, we could go hookering, we could get drunk, we could go to the convention...\nSENDER B: hello\nSENDER A: Hey, Mr. San Francisco, I'd like you to meet...\nSENDER B: i love britney spears and you?\nSENDER A: The New York City Ballet Gala, duh.\nSENDER B: i'm on a diet now, have you ever followed any diet?\nSENDER A: Thanks, Zeke! No way. My sparkle jelly stays on my wrist until I die, and then probably even after that.\nSENDER B: lol, sounds funny\nSENDER A: Big Buddha Cheese for muscle spasms.\nSENDER B: do you like spending your (or not so) money?\nSENDER A: Look, II have got... 25 bucks for food.\nSENDER B: could you give them to me?\nSENDER A: This Friday.  How much did you sell 'em?\nSENDER B: a lot, lol\nSENDER A: II'm not gonna sell them.\nSENDER B: well, why?..\nSENDER A: But I'll pay you like a regular customer.\nSENDER B: oh, thanks\nSENDER A: I... I don't mean selling programmes or finding prizes for the tombola.\nSENDER B: l should go, sorry\nSENDER A: I... I'd rather stay here, if you don't mind.\nSENDER B: no, i don't, stay here, buddy\nSENDER A: I'll go on alone.\nSENDER B: bye\nSENDER A: Hi, Les, I'll be right with you.\n
+
+[Answer]
+Bot
+
+[Rationale]
+SENDER A talks about Las Vegas, then the New York City Ballet Gala, and then Big Buddha Cheese for muscle spasms. These statements don't seem to follow a logical train of thought or relate to each other. Additionally, SENDER A's responses don't seem to reflect an understanding of what SENDER B is saying or engage in a meaningful conversation. Therefore, the output is 'Bot'.
+
+
+
+[Example 4]
+[Instruction and Question]
+You have to predict the type of conversation sentence given as input. Your predictions can be one among: 'information' if the input statement states a piece of information, 'question' if the input statement asks for some information, 'directive' if the input sentence involves the management or guidance of operations, and 'commissive' when it constitutes a statement that commits the speaker to some future action.\n\n Basically , you just can't drive . 
+
+[Answer]
+information
+
+[Rationale]
+In this case, the sentence "Basically, you just can't drive" is not asking for any information or guidance, nor is it committing the speaker to any future action. Instead, it is simply conveying a piece of information about the listener's driving ability. Therefore, it can be classified as an "information" type of sentence."
+
+
+
+[Example 5]
+[Instruction and Question]
+The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Given such a dialogue, output the price range the user if looking for which can take one of four values: Cheap, Moderate, Expensive and Don't Care. Output cannot be any other value than the four values. Note that if the user asks for the prices of items provided at a pub, restaurant or coffee shop but doesn't mention the price range they are looking for then the correct classification will be Don't Care. If the user does not mention a particular price, the correct classification will be Don't Care.\n\nSystem: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'sil'\nSystem: 'What kind of venue are you looking for? For example, a pub, or a restaurant.'\nUser: 'yes i uh im trying to find a mexican restaurant in the expensive price range'\nSystem: 'Nanna Mexico, which serves mexican and tex mex food, is a great restaurant. It's in the expensive price range.'\nUser: 'can i get the phone number and area of the venue'\nSystem: 'The phone number of Nanna Mexico is 01223902150. The price for main courses ranges from 5 pounds 35 to 15 pounds 50 and the price for a cappuccino is 2 pounds 95.'\nUser: 'the area of the restaurant'\nSystem: 'Nanna Mexico, which serves mexican and tex mex food, is an outstanding restaurant. It's in the expensive price range.'\nUser: 'the address of the restaurant'\nSystem: 'Nanna Mexico is located on 33 Regent Street.'\nUser: 'uh thank you goodbye'\n
+
+[Answer]
+Expensive
+
+[Rationale]
+"the user explicitly states that they are looking for a Mexican restaurant in the "expensive price range", and the system recommends Nanna Mexico which it confirms is indeed in the "expensive price range".So, the correct classification for the user's price range preference is "expensive"."
+
+
+
+[Example 6]
+[Instruction and Question]
+In this task you will be given two dialogues. You need to determine if both dialogues have the same underlying emotion. The possible emotions are happy, sad, angry, or other. If they do output 'yes', if not output 'no'.\n\nDialogue 1: 'i am not understand what you are saying  really that's what i was saying pls clearly convey the msg don't irritate me'. Dialogue 2: 'so rude why u didnt ans my question'.
+
+[Answer]
+yes
+
+[Rationale]
+Both dialogues express a negative emotion, with Dialogue 1 expressing frustration and Dialogue 2 expressing anger. Therefore, both dialogues have the same underlying emotion, which is not a positive emotion like happiness, and not a neutral emotion.
+
+
+
+[Example 7]
+[Instruction and Question]
+You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n\nTotal travel time is 50 minutes. Would you like me to book it?
+
+[Answer]
+Not right now, thanks. As I'll be in the center part of town I'd like to find an expensive restaurant there. Do you have any suggestions?
+
+[Rationale]
+The user may have asked for restaurant recommendations in the central part of town, and after receiving the recommendations, the system could have informed the user about the travel time to their desired destination. The system may then offer to book the recommended restaurant for the user.
+
+
+
+
+[Example 8]
+[Instruction and Question]
+In this task you are given a small conversation between two persons and 4 options on how the conversation should continue. Your job is to choose the most reasonable option. The conversation and the options are separated by a newline character. Each dialogue in the conversation are separated by a comma. F and M indicate female and male, respectively.\n\nM: Today we have Jane Couch with us. Good evening and welcome, Jane. ,F: Good evening. ,M: Now this is a question that everyone would like to ask you. How did you get interested in boxing? ,F: I saw a little television program about women boxing about 6 years ago. And at that moment, I said to myself, I'm going to do that. And it just changed my life. But my parents disagreed at first. ,M: And were you interested in sport at school? ,F: No, nothing. I wasn't ever fit or anything. I just don't look after myself at all. ,M: What do you think is the most important for a top boxer? ,F: Believe it or not, anyone can fight. But to make it to the top, you have to know your skills. And you have to have a quick brain and the fitness. The fitness side of it is the most important. ,M: And just lastly, when is your next big fight? ,F: The next one is going to be the end of February, and I will have another 2 at the beginning of April, and at the end of May. ,M: Well, that's great. We're looking forward to seeing your performance. Thank you very much Jane.\n(A) F: Yeah, I also look forward to my next fight in April. (B) F: Come and see my next fight in early February. (C) F: I\u2019m sorry, I don\u2019t understand. Could you say it again? (D) F: I have several months before my next fight in May.
+
+[Answer]
+C
+
+[Rationale]
+Option (A) and (B) are incorrect as they are not related to the conversation at hand and are not a natural continuation of the dialogue. Option (D) is incorrect as it provides incorrect information regarding the timing of the next fight. Option (C) is the most reasonable option as it is a natural response when one doesn't understand something and wants it to be repeated.
+
+
+
+[Example 9]
+[Instruction and Question]
+You will be given a person's personality, and a history of a conversation this person has had. You will be given four candidate sentences to complete the conversation, based on the context. Choose one and answer with the text.\n\nPersonality: I've long hair for a boy.\nI draw during classes instead of taking notes.\nI wish I could live in a fantasy world.\nI like lizards.\nChat history: -Hello! How are you? What kind of things do you like?\n -My age is 25. I like to read. What do you like?\n -I love lizards, I used to have a firey orange bearded dragon!\n -Cool! How old are you?\n -I am 28. are you in school?\n -Nope. I work at the library. You?\n -I tend to draw in class, when I should take notes, but get good grades.\n -What is your major? I hated school, but do love my job.\n -Art. Do you have any cool dreams? Things you wish you could do?\n -Nope. Just like sitting in the library, all alone, nobody to bother me.\n -Sometimes I want to live in a magical world with unicorns and dragons.\n -Are you male or female? I hate all this competition between females.\nCandidates 1) Female. What color is your hair? Is it long or short? 2) Blood doesn't bother me very much haha. Do you like sports? 3) I teach 1st grade, I've a lot of sixth graders that are wonderful. 4) Not good. I want to drive fast but I can not because can be dangerous.
+
+[Answer]
+Female. What color is your hair? Is it long or short?
+
+[Rationale]
+The given personality traits and chat history do not provide any relevant context to the candidate options except for the fact that the person likes lizards. In the chat history, the person mentions drawing in class instead of taking notes, and their major is art. Therefore, the most reasonable response among the candidate options is to ask about their hair since it is a relevant question and is not out of context. Hence, the answer is "Female. What color is your hair? Is it long or short?"
+
+
+
+[Example 10]
+[Instruction and Question]

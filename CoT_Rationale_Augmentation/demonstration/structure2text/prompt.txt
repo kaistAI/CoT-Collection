@@ -1,0 +1,106 @@
+[Example 1]
+[Instruction and Question]
+Ignoring the order of the concepts: water, reservoir, supply; 
+Generate a sentence with all the concepts :
+
+[Options]
+Not Given
+
+[Answer]
+the reservoir that supplies distillery with its water .
+
+[Rationale]
+The resulting sentence should describe the relationship between these concepts, indicating that the "reservoir" is a source of "water" that provides "supply" to the distillery. 
+Hence, the answer is: "The reservoir that supplies the distillery with its water ."
+
+
+
+[Example 2]
+[Instruction and Question]
+Facts:
+- significant buildings: residence in nandina matir bari
+- field: critical regionalism
+- occupation: architect educator
+- awards: iab gold medal
+- birth date: 1958
+- name: nahas ahmed khalil
+- practice: arc architectural consultants
+- nationality: bangladeshi
+- birth place: dhaka , bangladesh
+- alma mater: bangladesh university of engineering and technology
+Based on these bullet points, write a short biography describing the life of nahas ahmed khalil.
+
+[Options]
+Not Given
+
+[Answer]
+nahas ahmed khalil -lrb- born 1958 -rrb- is a bangladeshi architect , urban planner and educator . he received his bachelor of architecture degree from bangladesh university of engineering and technology in 1982 . after graduating he worked as assistant architect at cape under architect raziul ahsan for some years and later founded his own architectural firm arc architectural consultants .
+
+[Rationale]
+It's simple, here's my answer: nahas ahmed khalil -lrb- born 1958 -rrb- is a bangladeshi architect , urban planner and educator . he received his bachelor of architecture degree from bangladesh university of engineering and technology in 1982 . after graduating he worked as assistant architect at cape under architect raziul ahsan for some years and later founded his own architectural firm arc architectural consultants .
+
+
+
+[Example 3]
+[Instruction and Question]
+- finalteam is houston texans
+- finalyear is 2011
+- statlabel is tackles sacks forced fumbles
+- weight is 281
+- number is 93
+- position is defensive end
+- heightin is 4
+- statvalue is 54 4.0 0
+- debutteam is arizona cardinals
+- heightft is 6
+- college is boston college
+- birth date is 31 october 1982
+- nfl is bul698188
+- birth place is milton , massachusetts
+- debutyear is 2005
+- undraftedyear is 2005
+Given the details above, guess who could this information be about.
+
+[Options]
+Not Given
+
+[Answer]
+tim bulman
+
+[Rationale]
+The NFL profile identifier, bul698188, is consistent with the name Tim Bulman. So the answer is Tim Bulman.
+
+
+
+[Example 4]
+[Instruction and Question]
+We have the sentence: bald eagles routinely perch in the tall spruce trees .; Extract all the key concepts: 
+
+[Options]
+Not Given
+
+[Answer]
+eagle, tree, perch
+
+[Rationale]
+It's obvious. The answer is: eagle, tree, perch.
+
+
+
+[Example 5]
+[Instruction and Question]
+Can you write a sentence about the topic train?
+
+[Options]
+Not Given
+
+[Answer]
+A train is pulling into a station stop with red benches.
+
+[Rationale]
+In order to make the sentence provides a clear and concise picture of a train in motion and its surroundings, it should describes a specific scenario involving a train, such as movement or visual detail. The words "pulling into a station stop" is appropriate to suggest movement, and the addition of "with red benches" is appropriate for providing a visual detail about the setting. So we have the final answer, "A train is pulling into a station stop with red benches."
+
+
+
+[Example 6]
+[Instruction and Question]

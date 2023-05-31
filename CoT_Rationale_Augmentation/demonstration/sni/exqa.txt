@@ -1,0 +1,74 @@
+[Example 1]
+[Instruction and Question]
+Given a paragraph about movies, and a set of conversational question answers about the paragraph, generate a relevant question to the topic of the paragraph. The paragraph has the prefix 'CONTEXT:'. Each conversation question has a prefix `Q:` followed by the answer prefix `A:`.\n\nCONTEXT: They didn't change the whole climax scene. In one version Rudra's father saying him that the girl he loved is actually his step sister, so he can not marry her. On the other hand, the scene is same but there is no dialogue as it is muted and audience needs to understand from their reaction and background score. This change was made because the film got poor audience response due to the dialogue delivery of the conversation.  <sep>  Q: What are the differences between two climax of Solo? A: In one version Rudra's father saying him that the girl he loved is actually his step sister, so he can not marry her
+
+[Answer]
+What happens in the other version?
+
+[Rationale]
+The given conversation question provides information about one version of the climax scene in the movie, but does not provide any information about the other version. Therefore, asking about what happens in the other version can provide more information about the differences between the two versions of the climax scene.
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task, you're given a question, along with a context passage which has extra information available on certain terms mentioned in it, i.e., the proper nouns in the passage. Your job is to determine whether information from more than one term is needed to answer the question. Indicate your choice as `a` for Yes or `b` for No.\n\nQuestion: Who was the designer of the Swordfish? Passage:As designed in 1931, the He 46 was a two-seat sesquiplane of mixed construction. The upper wing was swept back 10\u00b0. This is a common trick when a change in an aircraft's design moves the center of gravity to the rear; rather than moving the whole wing back to counter for the shift, it is easier to simply angle the wings back slightly, which requires very little change to the basic design, or even the overall structure of the wing. (The similarly angled wings on the Fairey Swordfish are due to just such a mid-program change to the weight distribution of the aircraft.) The tailplane was mounted high and braced by struts. The undercarriage was fixed, and the tail was fitted with a skid rather than a wheel. The He 46 prototype first flew in late 1931; its flight characteristics were good, but design improvements were incorporated. The small lower wing was removed, while the mainplane was increased in area by 22% and braced to the fuselage, transforming the He 46 into a parasol-wing monoplane. A more powerful engine was added to the second prototype, and a single 7.92\u00a0mm (.312\u00a0in) MG 15 machine gun for the rear seat was added to the third prototype.\n
+
+[Answer]
+b
+
+[Rationale]
+The question only asks for the designer of the Swordfish, which is mentioned directly in the passage as "The similarly angled wings on the Fairey Swordfish." No other information or proper nouns are needed to answer the question.
+
+
+
+[Example 3]
+[Instruction and Question]
+Indicate a text span in the passage about which an inquisitive question is asked. (note, don't answer the question).\n\nSentence: In trading on the Stock Exchange of Hong Kong , the shares closed Wednesday at HK $ 4 . 80 each .<sep>Question: Is there any fee associated with owning foreign shares?
+
+[Answer]
+Stock Exchange of Hong Kong
+
+[Rationale]
+The text span should indicate a specific location where the shares were traded and the question pertains to the fee associated with owning shares in foreign markets. The relevant text span is "Stock Exchange of Hong Kong".
+
+
+
+[Example 4]
+[Instruction and Question]
+Given a passage and a query based on the passage, generate an unambiguous, concise and simple answer to the query from information in the passage. Note that the answer may not be present in exact form.\n\nBuy chicken before this date for storage in your home refrigerator. Always cook or freeze the chicken within two days of bringing it home, regardless of what the package date tells you. Never store raw chicken in the refrigerator at home for longer than two days. Once you've cleared up what belongs where, the next step is knowing how long the food will last. Storing food is a delicate matter -- in the fridge, food might get moist and moldy, and in the freezer it could lose all its moisture or get freezer burn. If you leave food in the fridge or freezer too long, it could not only lose its integrity but it may also become unsafe to eat. FoodSafety.gov has two useful charts listing how long certain foods will stay good in both the refrigerator and the freezer. The first chart lists all kinds of commonly refrigerated foods and the second is specifically for eggs and food made with eggs. Chrissy Metz, star of <strong>This is Us</em>, appeared on <strong>Jimmy Kimmel Liv... 1  Chrissy Metz, star of This is Us, appeared on Jimmy Kimmel Live on Tuesday wearing a stylishly on-point outfit that people are dying to copy\u2014and it\u2019s possible to do so without breaking the bank. References. 1  Basics for handling food safely. U.S. Department of Agriculture. 2  Foodborne illness: What consumers need to know. U.S. Department of Agriculture. 3  Food safety counts! U.S. Department of Agriculture. 4  Dietary Guidelines for Americans, 2010. U.S. Department of Health and Human Services. 5  Slow cookers and food safety. Keep your refrigerator below 40 degrees Fahrenheit, and store raw chicken in the coldest part of the fridge, which is usually the back of the bottom shelf or in the meat drawer. Make sure to decrease the storage time if you can't guarantee that the temperature will stay under 40 degrees F. (Also) I feel like I\u2019m limited to what I can do with the chicken once its cooked. Thanks for your help, SS. Dear SS: According to Foodsafety.gov, whole, uncooked poultry (chicken or turkey) is safe in the refrigerator for 1-2 days and safe in the freezer for up to 12 months. Poultry pieces are safe in the refrigerator for 1-2 days and safe in the freezer for up to nine months. Cooked poultry is safe refrigerated for 3-4 days and in the freezer for 2-6 months. You can also freeze your cooked breaded chicken cutlets (Foodsafety.gov specifically lists nuggets and patties) for 1-3 months. How long can you keep chicken in the fridge? Raw chicken: You'll need to either cook or freeze it fast. According to recommendations from the U.S. Food and Drug Administration, raw chicken will only keep in the refrigerator for about 1-2 days. (Same goes for turkey and other poultry.) If you store it in the freezer in a sealed, freezer-safe container or vacuum-sealed package, it should stay safe to thaw and eat for up to 9 months, in pieces, or up to 12 months, for a whole chicken. Cooked chicken: You have a little more time, but not much. I have to say that I have kept chicken in the fridge for longer than 2 days and not died. Some even have best before dates 3-4 days in. The quality definitely suffers, and I'm sure there's some risk, but it's probably low. How long does raw chicken last after being frozen and thawed? Chicken that has been defrosted in the fridge can be kept for an additional 1 to 2 days in the refrigerator before cooking; chicken that was thawed in the microwave or in cold water should be cooked immediately. I didn't even realize it until the next day when I found the container with the fresh chicken and realized that there were two containers of it in the fridge because I'd forgotten to throw away the old chicken from the previous week. Query: how long is chicken good in the refrigerator
+
+[Answer]
+According to Foodsafety.gov, whole, uncooked poultry (chicken or turkey) is safe in the refrigerator for 1-2 days
+
+[Rationale]
+Here's an direct answer: According to Foodsafety.gov, whole, uncooked poultry (chicken or turkey) is safe in the refrigerator for 1-2 days.
+
+
+
+[Example 5]
+[Instruction and Question]
+You are given a sentence and a question, construct 2 answer options in a specific format i.e. ['option1','option2']. The answer options have to be text spans from the given sentence. Only one among the options should be the correct answer to the given question. Note that, the correct answer to the given question will require understanding of coreference resolution. Coreference resolution is the task of clustering mentions in text that refer to the same underlying real world entities.\n\nSentence: In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, they were victorious within weeks. Question: Who was victorious
+
+[Answer]
+['Yakutsk', 'Kamchatka']
+
+[Rationale]
+The correct answer to the given question is 'Yakutsk', as they were the ones who won the war. However, to understand this, coreference resolution is required, as 'they' refers to Yakutsk in the sentence. So, the answer options should be: ['Yakutsk', 'Kamtchatka'] where 'Yakutsk' is the correct answer and 'Kamtchatka' is the incorrect option.
+
+
+
+[Example 6]
+[Instruction and Question]
+Given a text paragraph and a fact, generate 'True' if the fact can be inferred/concluded from the paragraph, otherwise generate 'False'. The input passage contains as set of logical statements so the fact can be marked either 'True' or 'False' if the relavant info regarding the fact is present in the given passage. If the Fact can't be marked True or False from the given paragraph, mark it as False. Don't use knowledge outside the given paragraph to check the fact.\n\nParagraph: If something is rough then it is big. Gary is kind. Erin is rough. Erin is red. Gary is green. Gary is blue. Erin is blue. If Gary is rough then Gary is green. All kind things are blue. All quiet things are big. Bob is blue. Bob is rough. If something is green and blue then it is quiet. Bob is green. Red, quiet things are blue. Bob is big.     Question: Erin is not red.
+
+[Answer]
+False
+
+[Rationale]
+There is a statement in the paragraph that indicates Erin is red.  Therefore, the fact that "Erin is not red" can't be inferred from the paragraph.
+
+
+
+[Example 7]
+[Instruction and Question]

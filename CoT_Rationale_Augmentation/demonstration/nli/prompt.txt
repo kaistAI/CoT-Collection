@@ -1,0 +1,110 @@
+[Example 1]
+[Instruction and Question]
+Problem: Context: Anorexia in males accounted for approximately six percent of cases seen in an eating disorder clinic.\nAnorexia becomes common in males.\nOPTIONS:\n- yes\n- no\nA: 
+
+[Answer]
+no
+
+[Rationale]
+The information given only pertains to cases seen in this particular eating disorder clinic and may not be representative of the entire population. To determine whether anorexia is becoming common in males, we would need to look at data from a larger sample size or population, as well as data from multiple sources to verify the trend. So the answer is “no”.
+
+
+
+[Example 2]
+[Instruction and Question]
+Generate a context and a hypothesis.\n\nAnswer: 
+
+[Answer]
+He also liked swimming and cycling. He said that he wrote stories, though he had to admit that he had never got further than the first two pages. Willie meanwhile not only remained silent during these conversations but picked his berries slowly so that they might forget that he was there but he reckoned without Zach.\n\nHypothesis: Willie was there
+
+[Rationale]
+Here's a context and an example for natural language inference task:\nHe also liked swimming and cycling. He said that he wrote stories, though he had to admit that he had never got further than the first two pages. Willie meanwhile not only remained silent during these conversations but picked his berries slowly so that they might forget that he was there but he reckoned without Zach.\n\nHypothesis: Willie was there
+
+
+
+[Example 3]
+[Instruction and Question]
+Q: Brock was a popular English writer and director.\nJeremy Brock MBE (born 1959) is an English writer and director whose works include the screenplays "Mrs Brown", "Driving Lessons", "The Last King of Scotland", "Charlotte Gray", and "The Eagle". Brock has also written two plays for the Hampstead downstairs theatre.\nOPTIONS:\n- Yes\n- It's impossible to say\n- No\nA: 
+
+[Answer]
+It's impossible to say
+
+[Rationale]
+While the information provided in the options about Jeremy Brock suggests that he is indeed an English writer and director with a number of successful works under his belt, there is not enough information to determine whether he is actually "popular" or not. The term "popular" is subjective and can vary depending on different factors, such as time period, genre, and audience. So the answer is "It's impossible to say".
+
+
+
+[Example 4]
+[Instruction and Question]
+Biff Burger (Best In Fast Food) was a burger fast food franchise that originated in Clearwater, Florida. Early success in the late 1950s and early 1960s led the franchise to spread to many parts of the Southeastern United States. However, financial woes in the 1970s sent the chain on a decline and most of its restaurants out of business by the 1980s. Today, two Biff Burger restaurants remain.\nBiff Burger came about in Clearwater Florida. OPTIONS:\n- Yes\n- It's impossible to say\n- No\nA: 
+
+[Answer]
+Yes
+
+[Rationale]
+To validate the claim "Biff Burger came about in Clearwater Florida", we should find a supporting evidence within the context. We could see that "Biff Burger (Best In Fast Food) was a burger fast food franchise that originated in Clearwater, Florida." supports the claim we are trying to validate. So the answer is "Yes".
+
+
+
+[Example 5]
+[Instruction and Question]
+input hypothesis: In the decade before the 1950s, the United States FBI began to maintain a public list of the people it regarded as the Ten Most Wanted Fugitives\nContext: In the 1950s, the United States FBI began to maintain a public list of the people it regarded as the Ten Most Wanted Fugitives. Following is a brief review of FBI people and events that place the 1950s decade in context, and then an historical list of individual fugitives whose names first appeared on the 10 Most Wanted list during the decade of the 1950s, under FBI Director J. Edgar Hoover.\nOPTIONS:\n- Yes\n- It's impossible to say\n- No\ntrue or false: 
+
+[Answer]
+No
+
+[Rationale]
+The context provided contradicts this hypothesis by stating that the FBI began to maintain this public list in the 1950s, under the direction of J. Edgar Hoover. The context goes on to list individuals who were first placed on the 10 Most Wanted list during the 1950s, further supporting the notion that the list was not in existence prior to that decade. So the answer is "No".
+
+
+
+[Example 6]
+[Instruction and Question]
+Q: If The plaintiffs claim Penrose's design is distinguished by its aperiodicity (the pattern almost but never quite repeats itself) and its five-fold symmetry (a trait that at the time was thought not to exist in nature but has since been identified in certain crystal formations)., can we say that "The design has no identified traits that would distinguish it."?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no\n\nA: 
+
+[Answer]
+no
+
+[Rationale]
+The plaintiffs are stating that the design has unique characteristics that set it apart, which directly contradicts the statement that the design has no identified traits that would distinguish it. Therefore, the answer is "no".
+
+
+
+[Example 7]
+[Instruction and Question]
+Does "The first docking of Soviet spacecraft was finally realised in January 1969 by the Soyuz 4 and Soyuz 5 missions." contain the correct answer to "When was the first successful docking of a two man space crew?"\nOPTIONS:\n- yes\n- no\n\nA:
+
+[Answer]
+yes
+
+[Rationale]
+The passage talks about the first successful docking of a two-man space crew, as both Soyuz 4 and Soyuz 5 had two cosmonauts on board at the time of their docking. Therefore, the statement contains the correct answer to the question. So, the answer is "yes".
+
+
+
+[Example 8]
+[Instruction and Question]
+input question: Is it true that "I shall have to guard The foxes." if "The foxes are getting in at night and attacking the chickens. I shall have to guard them." is true? OPTIONS:\n- no\n- yes\noutput answer: 
+
+[Answer]
+no
+
+[Rationale]
+The statement "I shall have to guard The foxes" does not accurately reflect the situation described in the second sentence "I shall have to guard them". In this context, "them" refers to the foxes, so the correct statement would be "I shall have to guard them", not "I shall have to guard the foxes". So, the answer is "no".
+
+
+
+[Example 9]
+[Instruction and Question]
+Question:\nPremise: A man in a blue shirt and orange shorts looks on at a small child wearing a yellow shirt and blue shorts with trees comprising the backdrop.\n\nHypothesis: There are a lot of trees behind the small child.\nIs the hypothesis true?\nOPTIONS:\n- yes\n- it is not possible to tell\n- no\n\nAnswer:\n
+
+[Answer]
+it is not possible to tell
+
+[Rationale]
+While it is mentioned that trees make up the backdrop, it is not specified whether there are a lot of trees or not. Additionally, the focus of the premise is on the man and child and not on the trees in the background. Hence, it is not possible to determine whether the hypothesis is true or not.
+
+
+
+[Example 10]
+[Instruction and Question]

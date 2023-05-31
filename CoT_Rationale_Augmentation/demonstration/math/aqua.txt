@@ -1,0 +1,78 @@
+[Example 1]
+[Instruction and Question] 
+A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?
+
+[Options]
+(A) 53 km
+(B) 55 km
+(C) 52 km
+(D) 60 km
+(E) 50 km
+
+[Answer] 
+(E)
+
+[Rationale]
+The distance that the person traveled would have been 20 km/hr * 2.5 hrs = 50 km. So the answer is (E). 
+
+
+
+[Example 2]
+[Instruction and Question] 
+John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is?
+
+[Options]
+(A) 50
+(B) 45
+(C) 65
+(D) 78
+(E) 64
+
+[Answer] 
+(A)
+
+[Rationale]
+If 10 is added to each number, then the mean of the numbers also increases by 10. So the new mean would be 50.  So the answer is (A).
+
+
+
+[Example 3]
+[Instruction and Question] 
+If a / b = 3/4 and 8a + 5b = 22,then find the value of a.
+
+[Options]
+(A) 1/2
+(B) 3/2
+(C) 5/2
+(D) 4/2
+(E) 7/2
+
+[Answer] 
+(B)
+
+[Rationale]
+If a / b = 3/4, then b = 4a / 3. So 8a + 5(4a / 3) = 22. This simplifies to 8a + 20a / 3 = 22, which means 44a / 3 = 22. So a is equal to 3/2.  So the answer is (B).
+
+
+
+[Example 4]
+[Instruction and Question] 
+How many keystrokes are needed to type the numbers from 1 to 500?
+
+[Options]
+(A) 1156
+(B) 1392
+(C) 1480
+(D) 1562
+(E) 1788
+
+[Answer] 
+(B).
+
+[Rationale]
+There are 9 one-digit numbers from 1 to 9. There are 90 two-digit numbers from 10 to 99. There are 401 three-digit numbers from 100 to 500. 9 + 90(2) + 401(3) = 1392.  So the answer is (B).
+
+
+
+[Example 5]
+[Instruction and Question]

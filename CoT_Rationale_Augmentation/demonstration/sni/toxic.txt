@@ -1,0 +1,110 @@
+[Example 1]
+[Instruction and Question]
+Categorize the comment on the basis of obscenity. If the comment is obscene output Yes, otherwise output No.\n\n\"Dams thwart salmon migration, degrade water quality, alter water flows and contribute to fish diseases and algae bloom problems.\"\n\nMeanwhile. the sudden rush of \"experts\" on hydrology, power production, etc. pile up like train wreck online and clearly don't give \"dam\" about salmon migration or water quality.
+
+[Answer]
+No
+
+[Rationale]
+The given comment is a criticism of the construction of dams and how it affects the environment and wildlife. The second sentence expresses frustration towards people who claim to be experts but do not seem to care about the issues mentioned in the first sentence. However, this frustration is not expressed through any obscenities or offensive language.
+
+
+
+[Example 2]
+[Instruction and Question]
+Given a prompt and two completions from a language model, select the completion that is the most fluent with respect to continuing the prompt. Fluency is defined by coherency and ease of understanding, not necessarily grammatical correctness. Generate either Completion A or Completion B.\n\nPrompt: Thanks for small flat rate priority boxes. I'll remember to use \nCompletion A: this. \nCompletion B: them. (Thanks to David for this.)So, how do we get this thing up to speed on time?Well, i
+
+[Answer]
+Completion B
+
+[Rationale]
+Completion A is not a complete sentence and does not add any meaningful continuation to the prompt. Completion B is the more fluent and coherent choice because it maintains the grammatical structure of the prompt and refers to "small flat rate priority boxes" using the appropriate pronoun "them"
+
+
+
+[Example 3]
+[Instruction and Question]
+In this task you should classify the given text as 'violence' if there is inhumanity associated with it. Otherwise, classify it as 'not violence'. Mentioning killing people, or hurting them in any way is considered violent.\n\nIma fucking stab u up bruv. Fucking white prick bruv.. fucking racist.  Gammon
+
+[Answer]
+violence
+
+[Rationale]
+The derogatory language and racial slurs contribute to the inhumanity associated with the text.The use of violent language and threatening to physically harm someone (stabbing) makes this statement violent.
+
+
+
+[Example 4]
+[Instruction and Question]
+Classify the given tweet into the three categories: (1) 'Hate Speech', (2) 'Offensive' and (3) 'Neither'. 'Hate Speech' is kind of a threating statement or sometimes include call for violence while 'offensive' statement just offensds someone. 'Neither' is when it doesn't fall into Hate Speech or Offensive category.\n\n&#128514;&#128514;&#128514;&#128514;&#128514;&#128514; RT @KarltonHinez: @ItsNotHarold smh bitch sellin her ass
+
+[Answer]
+Offensive
+
+[Rationale]
+The given tweet includes the word "bitch" which is a derogatory term for a woman. Additionally, the tweet refers to someone selling their body, which could be interpreted as objectifying and degrading. While the tweet does not contain a direct call for violence or threaten anyone, it is still offensive and inappropriate.
+
+
+
+[Example 5]
+[Instruction and Question]
+In this task, you are given a hateful post in English from online platforms. You are expected to classify the post into two classes: aggresive or non-aggresive. An aggresive post is one that expresses feelings and opinions in an abusive way and tries to dominate others. Note that the URLs in the text have been replaced with [Link].\n\nPost: 70% of Credible Fear Migrants Caught By Border Patrol Once Released into the U.S they never file Asylum ICE has to find them amd deport     #RedNationRising #Trump #MAGA  Illegal's #StopAsylumScam  Illegal #FamiliesBelongTogether in their Country Not the U.S Stop #immigration [Link]
+
+[Answer]
+Non-aggresive
+
+[Rationale]
+The given post expresses some political opinions and criticism about immigration policies, but it does not contain any abusive language or attempt to dominate others. Therefore, it can be classified as non-aggressive.
+
+
+
+[Example 6]
+[Instruction and Question]
+The input is a tweet which can be classified as Hate Speech, Offensive or Normal. Given such a tweet, output the class the tweet belongs to. Hate Speech will contain threatening language towards the community targeted. Offensive language will contain abusive or discriminatory language towards the community targeted.\n\nthere are approx <number> <number> jews there are over <number> <number> muslims and those animals are breeding like rabbits i prioritize targets the jew population is stable and low the sandnigger population is growing like plague which one do you think we should go for first
+
+[Answer]
+Hate Speech
+
+[Rationale]
+The use of terms like "animals" and "breeding like rabbits" to describe the Muslim community is dehumanizing and shows a clear intent to incite hatred and violence. The statement also suggests that the person has prioritized targets based on their religion, which is a clear indication of a hate speech. Such language can be extremely harmful and can lead to real-life violence and discrimination.
+
+
+
+[Example 7]
+[Instruction and Question]
+In this task, you are given a public comment from online platforms. You are expected to classify the comment into two classes: identity-attack and non-identity-attack. Identity attack refers to anything rude or disrespectful about someone's identity, including appearance, race, gender, and sexual orientation.\n\nComment: Bail is a right under both Alaska and federal constitutions. A person charged with an offense is not legally guilty of it, no matter what the police say.  Curious, how some people burn incense before a constitutional right they like and ignore the ones they don't like.\n\nGranted, the court has discretion in setting the amount of bail, provided it is not \"excessive.\"  There are different interpretations of that word.  In some minds it means \"excessive compared to the bail usually set for similar charges.\"  In others, it means \"excessive compared to the defendant's resources.\"  Usually, the court considers both.\n\nPeople also don't realize that there is a distinction between cash bail and \"corporate\" bail.  The latter means a bail bondsman puts up a bond for you (for which he will mulct you dearly).  Usually, the defendant in felony cases is required to post at least 10% of his total bail amount in cash.  The article doesn't say whether the $2,500 was the whole bail, or only the cash part.
+
+[Answer]
+Non-identity-attack
+
+[Rationale]
+The comment does not contain anything rude or disrespectful about someone's identity, appearance, race, gender, or sexual orientation. So it could be classified into "Non-identity-attack".
+
+
+
+[Example 8]
+[Instruction and Question]
+In this task you are given a tweet and you must identify whether the tweet contains any offense or any form of (untargeted) profanity. Label the post as NOT if the post does not contain offense or profanity.  Non-offensive posts do not include any form of offense or profanity. label the post as OFFENSIVE if the post contains offensive language or a targeted (veiled or direct) offense.  Twitter user mentions were substituted by @USER and URLs have been substitute by URL.\n\n@USER @USER For what? Why are you asking for his arrest?  Liberals being butthurt for 19 months is not an impeachable offense.
+
+[Answer]
+NOT
+
+[Rationale]
+The tweet does not contain any offense or profanity, but rather an opinion expressed in a civil manner. Therefore, the label for this tweet should be NOT.
+
+
+
+[Example 9]
+[Instruction and Question]
+In this task, you are given a text from a social media post. Your task is to classify the given post into two categories: 1) yes if the given post is potentially offensive to anyone (i.e., a subset of people, any particular person, etc.), 2) no, otherwise. Note that potentially offensive posts can contain sexual, racial, religious biased or offensive language. Warning: the examples and instances may contain offensive language.\n\nKim K is alright but honestly so many niggas been in that I'd rather not.. And Miley got unfollowed that bitch is just strange.
+
+[Answer]
+Yes
+
+[Rationale]
+The given post is potentially offensive to some people as it contains a racial slur and objectifying language towards women. Therefore, the answer is "Yes".
+
+
+
+[Example 10]
+[Instruction and Question]

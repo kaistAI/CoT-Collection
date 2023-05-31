@@ -1,0 +1,111 @@
+[Example 1]
+[Instruction and Question]
+You are provided with an arithmetic question. Your task is to compute the solution using the given arithmetic operations. The only arithmetic operators needed to answer the questions are'+'(addition) and'-'(subtraction). The answer should be correct to one decimal place.\n\nKeith spent $6.5 on a rabbit toy, $5.79 on pet food, and a cagecost him $12.51. He found a dollar bill on the ground. What was the total cost of Keith's purchases?
+
+[Answer]
+24.8
+
+[Rationale]
+Keith spent $6.5 on a rabbit toy, $5.79 on pet food, and a cagecost him $12.51. Finding a dollar doesn't matter with Keith's purchase. (Total cost of Keith's purchase) = 6.5 + 5.79 + 12.51 = 24.80.
+
+
+
+[Example 2]
+[Instruction and Question]
+Given a math problem with context and a question and 5 answer choices, the task is to provide the correct answer choice based on the problem. You must choose one of the given answer choices by letter: a, b, c, d, or e; anything else is invalid.\n\nProblem: 20 percent of country y ' s yearly exports come from fruit exports. one - sixth of all fruit exports from country y are orange exports. if country y generates $ 4.25 million from its orange exports, how much money does it generate from its yearly total of exports ?\nOptions: a. $ 21.25 m, b. $ 25.5 m, c. $ 106.25 m, d. $ 127.5 m, e. $ 153 m
+
+[Answer]
+d
+
+[Rationale]
+To solve the problem, we can use the following steps:\n1. Find the total revenue from fruit exports by dividing the revenue from orange exports by the fraction of orange exports out of all fruit exports:\n4.25 million / (1/6) = 25.5 million\n\n2. Use the fact that fruit exports make up 20% of the total exports to find the total revenue from all exports:\nTotal exports = (25.5 million) / (0.2) = 127.5 million
+
+
+
+[Example 3]
+[Instruction and Question]
+Given a simple high-school level math question, you are required to solve it and provide the final answer. The final answer is always a single number. These questions can range from a variety of topics like simple arithmetic, solving equations, converting a quantity from one unit to another, finding remainders/GCD/LCM, finding probabilities etc. Each question has only one correct answer. This answer can be a positive or negative integer, a fraction or a decimal number. If the answer is a negative number use the hyphen (e.g. -42) symbol for the minus sign. For decimal numbers, do not add extra zeros after the decimal point. For fractional numbers, separate the numerator and denominator using a forward slash (e.g. 3/25).\n\nThree letters picked without replacement from svojjvzsoovvso. Give prob of sequence jvs.
+
+[Answer]
+1/91
+
+[Rationale]
+The total number of ways to pick 3 letters from the given string is given by the combination formula, which is C(14,3) = 364. There are 2 j's, 3 v's ,2 s's in the sequence. So the number of possible cases to make sequence "jvs" would be 2x3x2=12. The final answer is 12/364 which can be simplified as 1/91.
+
+
+
+[Example 4]
+[Instruction and Question]
+In this task, you need to answer the given multiple-choice question on the general math. Classify your answers into 'a', 'b', 'c', 'd', and 'e'.\n\nProblem: in track last week , the boys ran 34 laps . the girls ran 20 more laps . each lap is a 1 / 6 th of a mile . how many miles did the girls run ? \nOptions: a ) 9 miles , b ) 10 miles , c ) 11 miles , d ) 12 miles , e ) 13 miles
+
+[Answer]
+a
+
+[Rationale]
+The girls ran 34 + 20 = 54 laps in total. Each lap is 1/6 of a mile, so the girls ran 54 x 1/6 = 9 miles.
+
+
+
+[Example 5]
+[Instruction and Question]
+In this task, you are given a statement spoken by a politician in natural language and the subject of the discussion for the given statement. Your task is to determine if the given subject of the discussion is correct for the given statement. The subject can be multiple words. Answer with \"True\" if it's the correct subject of discussion or return \"False\" if it's incorrect.\n\nStatement: \"My plan offers three times as much tax relief to the middle class as Senator McCain's.\" \n Subject: taxes
+
+[Answer]
+True
+
+[Rationale]
+The subject of discussion in the statement is taxes, and the politician is comparing their plan's tax relief to Senator McCain's. Therefore, the answer is True.
+
+
+
+[Example 6]
+[Instruction and Question]
+You are given a mathematical question described with a circumscribed mathematical vocabulary. Questions in this task usually contain some variables (e.g. X, Y), equations (e.g. X+Y=3) and some relationships (X is greater than Y). Often you need to find the value of the variable using equations and relationships. You are also given 4 or 5 answer options (associated with \"A\", \"B\", \"C\", \"D\", \"E\"). Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E'. LaTeX mathematical format (the standard way to express mathematical expressions in the typesetting software known as LaTeX) is used to express equations. Each question is solvable with high school math knowledge. Give only one answer for each question.\n\nFor the function \\(f\\), \\(f(x)\\) is inversely proportional to \\(x\\). If \\(f(k) = a\\), what is the value of \\(f(\\frac { k } { 3 } )\\) ?\n(A)\\(\\frac { a } { 3 } \\) (B)\\(\\frac { 2a } { 3 } \\) (C)\\(3a\\) (D)\\(6a\\) (E)\\(9a\\)
+
+[Answer]
+C
+
+[Rationale]
+If \(f(x)\) is inversely proportional to \(x\), then \(f(x)\cdot x = k\) for some constant \(k\). If \(f(k) = a\), then we have \(f(k)\cdot k = a\cdot k), so \(a\cdot k = k\cdot f(k) = k\cdot f(\frac{k}{3})\cdot 3 = 3f(\frac{k}{3})\cdot k/3\). Simplifying this gives us \(a = f(\frac{k}{3})\cdot k\), so \(f(\frac{k}{3}) = a/k\cdot 3 = 3a/k\). Therefore, the answer is (C) \(3a\).
+
+
+
+[Example 7]
+[Instruction and Question]
+You are given a math word problem and you are supposed to apply an addition mathematical operator on the numbers embedded in the text to answer the following question and then only report the final numerical answer.\n\nContext: Edward spent $ 9. Then he spent $ 8 more. Now he has $ 17. \n\n Question: How much did Edward have before he spent his money?
+
+[Answer]
+34
+
+[Rationale]
+To solve the problem, we need to use subtraction, not addition.\nSince Edward spent $9 and then spent an additional $8 more, his total spending was $9 + $8 = $17.\nWe know that Edward currently has $17, so to find out how much money he had before he spent it all, we need to add $17 with his total spent money $17.
+
+
+
+
+[Example 8]
+[Instruction and Question]
+In this task you will be given an arithmetic operation in Italian and you have to find its answer. The operations 'addition' and 'subtraction' have been replaced with their italian translations i.e you need to perform addition when you see 'aggiunta' and subtraction in case of 'sottrazione'.\n\n1195 sottrazione 570 aggiunta 7850 aggiunta 8195 sottrazione 2484
+
+[Answer]
+14186
+
+[Rationale]
+1195 - 570 + 7850 + 8195 - 2484 = 625 + 7850 + 8195 - 2484 = 8475 + 8195 - 2484 = 16670 - 2484 = 14186.
+
+
+
+[Example 9]
+[Instruction and Question]
+A ploynomial equation is a sum of terms. Here each term is either a constant number, or consists of the variable x raised to a certain power and multiplied by a number. These numbers are called weights. For example, in the polynomial: 2x^2+3x+4, the weights are: 2,3,4. You can present a polynomial with the list of its weights, for example, equation weights = [6, 4] represent the equation 6x + 4 and equation weights = [1, 3, 4] represent the equation 1x^2 + 3x + 4. In this task, you need to compute the result of a polynomial expression by substituing a given value of x in the given polynomial equation. Equation weights are given as a list.\n\nx = 3, equation weights = [6, 3, 2]
+
+[Answer]
+65
+
+[Rationale]
+The given polynomial equation is: 6x^2 + 3x + 2\nSubstituting x = 3, we get: 6(3)^2 + 3(3) + 2 = 54 + 9 + 2 = 65
+
+
+
+[Example 10]
+[Instruction and Question]

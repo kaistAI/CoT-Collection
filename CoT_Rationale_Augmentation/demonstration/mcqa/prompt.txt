@@ -1,0 +1,208 @@
+[Example 1]
+[Instruction and Question]
+Skylar had stopped breathing but Lee held Skylar's arms anyway, in vain. Given the context: Lee want to do what next?
+Possible answers: beg the doctors to try again, get her up and walking home, bring Skylar back
+
+[Options]
+- beg the doctors to try again
+- get her up and walking home
+- bring Skylar back
+
+[Answer]
+beg the doctors to try again
+
+[Rationale]
+The context of the situation is that Skylar has stopped breathing and Lee is holding Skylar's arms. This suggests that Skylar has received medical attention and is no longer alive.
+Based on this, Lee would want to beg the doctors to try again, as this would be the best way to potentially save Skylar's life. 
+The options of getting Skylar up and walking home or bringing Skylar back do not align with the context, as they would not address the immediate medical emergency at hand.
+
+So the answer is to beg the doctors to try again.
+
+
+
+[Example 2]
+[Instruction and Question]
+Do you think the right answer to the question "what can run on alcoholic fermentation of the glucose in corn or other plants?" is "bicycles"?
+
+[Options]
+- No
+- Yes
+
+[Answer]
+No
+
+[Rationale]
+Alcoholic fermentation is a process that occurs in living organisms, most commonly yeast, to convert glucose into energy. This process does not produce enough energy to power something like a bicycle.
+
+So the answer is No.
+
+
+
+[Example 3]
+[Instruction and Question]
+Eventually , the cyst can get so large that part of the wall weakens and fluid begins to leak out ; that is , the cyst ruptures . It is similar to popping a water balloon . When this happens , the fluid may irritate the pelvic lining and cause pain , often severe . Most of the time the pain begins to gradually subside over the course of the next few days .
+What type of doctor might the person have had to see ?
+
+- A paediatrician  - A heart surgeon - a gynecologist - None of the above choices
+
+[Options]
+- A paediatrician 
+- A heart surgeon 
+- a gynecologist 
+- None of the above choices
+
+[Answer]
+a gynecologist
+
+[Rationale]
+The context mentions a cyst in the pelvic region and the symptoms of the cyst rupturing, including pain and fluid leakage. This suggests that the issue is related to the reproductive or urinary system. Given that the issue is related to the reproductive or urinary system, it is likely that the person would have had to see a specialist in these areas. 
+Out of the given options, "a gynecologist" is the most likely specialist that the person would have had to see, as gynecologists specialize in female reproductive health, including issues related to the uterus, ovaries, and other reproductive organs. 
+
+In conclusion, based on the given context, the most likely answer is a gynecologist.
+
+
+
+[Example 4]
+[Instruction and Question]
+Process:
+- Get some seeds
+- Pick a spot to plant them
+- Dig a hole in the dirt
+- Put the seed in the hole
+- Pour some water on the seed and hole
+- Cover up the hole
+- Press down on it
+- Spray some plant food on it.
+
+Question:
+suppose if no water is available happens, how will it affect vegetables?
+
+- A: more
+- B: less
+
+[Options]
+- A
+- B
+
+[Answer]
+B
+
+[Rationale]
+The process of planting seeds requires water, which is essential for the growth of plants. Water helps transport nutrients, regulate temperature, and absorb minerals from the soil. If no water is available, the seed will not germinate and the plant will not grow properly, leading to fewer vegetables. Hence, the absence of water will result in "less" vegetables, making the answer "B".
+
+
+
+[Example 5]
+[Instruction and Question]
+Read the following conversation and answer the question.
+M: I'm worried about my sister, Lucy.
+W: Why is that?
+M: She thinks she's too fat.
+W: Is she?
+M: No, but she keeps skipping meals. Then, she only eats chips and drinks cola.
+W: I used to do that. It's called binge. It was no fun!
+M: Why did you stop doing it?
+W: Well, my doctor told me to eat when I'm hungry. She said, "Eat till you're full or you'll eat too much later." She said a lot of girls ruin their health this way.
+M: Did she say what to eat?
+W: She said, "Eat fruit, vegetables, meats and grains. Have regular meals and snacks. Get exercise, too."
+
+Question: What's the relationship between the speakers? 
+
+- Doctor and patient.
+- Friends.
+- Brother and sister.
+
+[Options]
+- Doctor and patient
+- Friends
+- Brother and sister
+
+[Answer]
+Friends
+
+[Rationale]
+The conversation between two people, a man(M) and a woman(W), is discussing the man's sister who has a negative view of her own body and is skipping meals. The woman shares that she used to engage in similar behavior, and explains that her doctor advised her to eat a balanced diet and exercise.
+
+Among the three options,
+- First, since the woman is sharing her experience of what the doctor told her, it is unlikely she would be a medical professional. So the answer couldn't be doctor and patient.
+- Second, given that the man is talking about his sister, the woman is unlikely to be the man's sister.
+- Lastly, because the conversation is informal and the speakers are discussing a personal matter it is likely that the relationship between the speakers is that of friends.
+
+Therefore, the answer is Friends.
+
+
+
+[Example 6]
+[Instruction and Question]
+Question: The best place for the troublemaker to sneak a smoke while he was in where, was in the bathroom?
+
+Choices: 
+- playground
+- school
+- at hotel
+- theater
+- convenience store
+
+The rationale to choose ""school"" as the answer is that:
+
+[Options]
+Not Given
+
+[Answer]
+smokers traditionally use school bathrooms
+
+[Rationale]
+Here's the rationale: "smokers traditionally use school bathrooms".
+
+
+
+[Example 7]
+[Instruction and Question]
+So I was looking at quotes for our tshirts for ice hockey , and I came across one that sums up how I ' m feeling right now . When you talk about an injury and the kind of depression you go through , it 's not just because you 're out of shape and you can't go out and play . You 're missing a part of you .
+
+Why is the narrator so down in the dumps ?
+Pick the best answer from the following options:
+A. They are unable to play ice curling .
+B. They are hurt .
+C. They are unable to play ice skating .
+D. They are unable to play in the yard .
+
+[Options]
+- A
+- B
+- C
+- D
+
+[Answer]
+B
+
+[Rationale]
+The quote in the question mentions the narrator's feelings about an injury and the depression that follows. The narrator says that it's not just about being out of shape and unable to play, but rather they feel like they are missing a part of themselves. This implies that the reason for their depression is linked to their physical inability to participate in a sport or activity they enjoy. Based on the context, it can be inferred that the narrator is upset because they are hurt and unable to play ice hockey.
+So, the answer is B.
+
+
+
+[Example 8]
+[Instruction and Question]
+Q: What does the ubiquitous generator use to generate currents?
+
+Choices:
+
+- inertia - water - gravity - magnetism
+
+[Options]
+- inertia
+- water
+- gravity
+- magnetism
+
+[Answer]
+magnetism
+
+[Rationale]
+A generator is a device that converts mechanical energy into electrical energy. This is done by using a magnetic field to induce a current in the generator’s windings. This current is then sent to an external circuit, where it can be used to power electrical devices. The generator uses magnetism to generate currents, so the answer is magnetism.
+
+
+
+[Example 9]
+[Instruction and Question]

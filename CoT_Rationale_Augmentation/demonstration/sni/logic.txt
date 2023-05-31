@@ -1,0 +1,73 @@
+[Example 1]
+[Instruction and Question]
+This task evaluates for the ability to follow basic natural language instructions nested and performing a sequence of operations, including basic logic and conditionals.\n\nrepeat a woodchuck chucks lots of wood two times, but replace lots with five pounds the first time and two tons the second time
+
+[Answer]
+a woodchuck chucks five pounds of wood a woodchuck chucks two tons of wood
+
+[Rationale]
+Step1: repeat a woodchuck chucks lots of wood two times, Intermediate Answer 1: a woodchuck chucks lots of wood a woodchuck chucks lots of wood\nStep 2: replace lots with five pounds the first time and two tons the second time, Final Answer: a woodchunk chunks five pounds a woodchunk chunks two tons of wood"
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task, you are given a year. You need to check if it is a leap year or not. A year may be a leap year if it is evenly divisible by 4. Years that are divisible by 100 (century years such as 1900 or 2000) cannot be leap years unless they are also divisible by 400. Return 1 if it is a leap year, else return 0.\n\n1244
+
+[Answer]
+1
+
+[Rationale]
+The year 1244 is divisible by 4 with no remainder, yet not divisible by 100. Therefore, 1244 is a leap year and the answer should be 1.
+
+
+
+[Example 3]
+[Instruction and Question]
+In this task, you are given a date in \"dd/mm/yyyy\" format. You need to check if the date is valid or not. Return 1 if it is valid, else return 0. A date is valid if the components day(\"dd\"), month(\"mm\") and year(\"yyyy\") are all valid individually. A day(dd) is valid if it: a) lies between 1 and 31 for the months of January, March, May, July, August, October, December, b) lies between 1 and 28 for February on non-leap years and between 1-29 on leap years, c) lies between 1-30 for all other months. A month(mm) is valid if it lies in the range from 1 to 12 as there are 12 months in a year. A year is always valid if it is expressed in the form of \"yyyy\".\n\n31/18/1191
+
+[Answer]
+0
+
+[Rationale]
+The given date "31/18/1191" is not a valid date. The month component is "18" which is not in the range of 1-12. Therefore, the date is invalid and the output should be 0.
+
+
+
+[Example 4]
+[Instruction and Question]
+In this task, you are given a date in a particular format and you need to convert to another format. If given format is \"dd/mm/yyyy\" then convert to \"mm/dd/yyyy\". If given format is \"mm/dd/yyyy\" then convert to \"dd/mm/yyyy\".\n\n04/17/1955, input_format=mm/dd/yyyy
+
+[Answer]
+17/04/1955
+
+[Rationale]
+Since there is no 17th month, the given format is "mm/dd/yyyy". We have to convert it to "dd/mm/yyyy", so the answer is "17/04/1995".
+
+
+
+[Example 5]
+[Instruction and Question]
+You are given a time in 24-Hours format, and you need to convert it to time in the 12-Hours format. For a 24-Hours format time larger than 12:00, subtract 12 hours from the given time, then add 'PM'.  For example, if you have 14:30 hours, subtract 12 hours, and the result is 2:30 PM. If the 24-Hours format time is less than or equal to 12:00, add 'AM'. For example, say you have 10:15 hours, add the 'AM' to the end, here we get 10:15 AM. Note that 00:00 Hrs in 24-Hours format is 12:00 AM in 12-Hours format and 12:00 Hrs in 24-Hours format would be 12:00 PM in 12-Hours format.\n\n21:50 Hrs
+
+[Answer]
+9:50 PM
+
+[Rationale]
+The given time is 21:50 Hrs in the 24-Hours format.\nSince it is greater than 12:00, we need to subtract 12 hours to convert it to the 12-Hours format.\n\n21:50 - 12:00 = 9:50\nSo, the time in the 12-Hours format is 9:50 PM.
+
+
+
+[Example 6]
+[Instruction and Question]
+Given a statement about date and time, state whether the statement is true or false. The number of date/time operands in the statement ranges between 2 and 3. Let's say the values are denoted by t1, t2 and t3. The statements follow one of the following ten templates: 't1 occurs before t2, t1 doesn't occur before t2, t1 occurs after t2, t1 doesn't occur after t2, t1 occurs between t2 and t3, t1 doesn't occur between t2 and t3, t1 occured before t2 but after t3, t1 occured after t2 but before t3, t1 didn't occur before t2 but after t3, t1 didn't occur after t2 but before t3'. The output should be either 'True' or 'False'.\n\n12:38:06 occurs between 0:56:08 and 07:36:45 PM
+
+[Answer]
+True
+
+[Rationale]
+The given range of time is 0:56:08 to 7:36:45 PM which is in 12-hour format. The given time 12:38:06 is also in 12-hour format. Therefore, we need to convert the given range to 24-hour format, which would be 00:56:08 to 19:36:45. Since 12:38:06 falls between the given range, the statement is true.
+
+
+
+[Example 7]

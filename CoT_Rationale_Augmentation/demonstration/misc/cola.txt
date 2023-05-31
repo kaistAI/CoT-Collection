@@ -1,0 +1,62 @@
+[Example 1]
+[Instruction and Question]
+Is the following sentence linguistically acceptable?\nFred must both have been singing songs and have been drinking beer.\nOPTIONS:\n- unacceptable\n- acceptable\n\n
+
+[Answer]
+acceptable
+
+[Rationale]
+The given sentence follows the subject-verb-object structure. The subject is "puppy," the verb is "was kissed," and the object is "by the policeman." Therefore, the sentence is linguistically acceptable.
+
+
+
+[Example 2]
+[Instruction and Question]
+Problem: Produce a sentence that would be considered grammatically acceptable (OPTIONS:\n- unacceptable\n- acceptable)\n\nAnswer: 
+
+[Answer]
+The hanging gardens are a sight to behold.
+
+[Rationale]
+Here's an example of a grammatically correct sentence:\nThe hanging gardens are a sight to behold.
+
+
+
+[Example 3]
+[Instruction and Question]
+Sentence: "Amanda drove at the package."\nWould a linguist rate this sentence to be acceptable linguistically? OPTIONS:\n- unacceptable\n- acceptable\nA: 
+
+[Answer]
+unacceptable
+
+[Rationale]
+From the sentence "Amanda drove at the package", it is not clear what is meant by "drove at." The phrasal verb "drove at" can mean "to move towards with the intention of hitting," which does not make sense in the context of a package. It is possible that the intended meaning was "Amanda drove to the package" or "Amanda drove towards the package," which would make more sense.
+
+
+
+[Example 4]
+[Instruction and Question]
+Sentence: Ann may spends her vacation in Italy.\nOPTIONS:\n- unacceptable\n- acceptable
+
+[Answer]
+unacceptable
+
+[Rationale]
+The given sentence includs a subject-verb agreement error. The subject of the sentence is "Ann," which is singular, and the verb "may spends" is in the third person singular form. However, "may" is a modal verb, and when used with another verb, the second verb should be in the base form (i.e., the infinitive form without "to").\nTherefore, the correct verb form should be "spend" instead of "spends," and the correct sentence would be "Ann may spend her vacation in Italy.
+
+
+
+[Example 5]
+[Instruction and Question]
+Instruction: Produce a brief English sentence that would be considered grammatically as category: unacceptable\nAll categories: OPTIONS:\n- unacceptable\n- acceptable\nA brief sentence: 
+
+[Answer]
+That monkeys is eating the banana.
+
+[Rationale]
+Here's an example of an unacceptable English sentence: That monkeys is eating the banana.
+
+
+
+[Example 6]
+[Instruction and Question]

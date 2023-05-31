@@ -1,0 +1,111 @@
+[Example 1]
+[Instruction and Question]
+In this task, you're given an open-domain question. Your task is to provide an answer to the given question. There is only one unique answer for each question. Your answer should be short, and refer to an entity, date, number, etc. Do not put your answer in the context of a sentence.\n\nWho played in the super bowl in 2017?
+
+[Answer]
+New England Patriots, Atlanta Falcons
+
+[Rationale]
+The New England Patriots and the Atlanta Falcons played in the Super Bowl in 2017. Since the instruction asked not put your answer in the context of a sentence, the final answer is: New England Patriots, Atlanta Falcons
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task, you're given a pair of sentences, sentence 1 and sentence 2, that agree with each other. Your job is to alter sentence 2 so that the pair neither agree nor contradict each other. Generated sentences must be short, with less than 15 words. New information can be introduced. Avoid using pronouns to confuse the subject of the sentence.\n\nSentence 1: Two people engage in conversation over an interesting topic. Sentence 2: Two people are having an interesting conversation
+
+[Answer]
+Two people are debating
+
+[Rationale]
+Change in wording should avoid direct agreement or contradiction with sentence 1 while maintaining the same general topic.The new sentence introduces a different word (debating) that suggests a slightly different nuance from the original sentence (engaging in conversation).
+
+
+
+[Example 3]
+[Instruction and Question]
+Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.\n\nQuestion: what are some of hans christian andersen books?
+
+[Answer]
+what books did hans chrisian andersen make?
+
+[Rationale]
+Here's a paraphrase of the question: "what books did hans chrisian andersen make?"
+
+
+
+[Example 4]
+[Instruction and Question]
+Classify the input text into either disfluent questions or proper questions. A disfluent question is a question that has some interruptions in it while framing. A proper question is the correct form of the question without any disfluency.\n\nWhat factors positively impacted Jacksonville following the war or rather negatively impacted it after the war?
+
+[Answer]
+disfluent
+
+[Rationale]
+The given text contains hesitation and interruption while framing the question. The phrase "or rather" interrupts the flow of the sentence and creates a disfluency.\nWe could infer that it is disfluent.
+
+
+
+[Example 5]
+[Instruction and Question]
+Given a statement, generate a question such that the answer is contained in that statement.\n\nBinoculars are optical tools.
+
+[Answer]
+What are optical tools?
+
+[Rationale]
+The question should induce binoculars as an example of an optical tool. That would be "What are optical tools?".
+
+
+
+[Example 6]
+[Instruction and Question]
+Given a trivia question, classify broad topical category from this list: 'theater', 'geology', 'book', 'tv', 'astronomy', 'aviation', 'military', 'government', 'boxing', 'projects', 'metropolitan_transit', 'law', 'venture_capital', 'broadcast', 'biology', 'people', 'influence', 'baseball', 'spaceflight', 'media_common', 'cvg', 'opera', 'olympics', 'chemistry', 'visual_art', 'conferences', 'sports', 'language', 'travel', 'location', 'award', 'dining', 'martial_arts', 'comic_strips', 'computer', 'user', 'tennis', 'music', 'organization', 'food', 'event', 'transportation', 'fictional_universe', 'measurement_unit', 'meteorology', 'distilled_spirits', 'symbols', 'architecture', 'freebase', 'internet', 'fashion', 'boats', 'cricket', 'film', 'medicine', 'finance', 'comic_books', 'celebrities', 'soccer', 'games', 'time', 'geography', 'interests', 'common', 'base', 'business', 'periodicals', 'royalty', 'education', 'type', 'religion', 'automotive', 'exhibitions'.\n\nAccording to Elvis Presley, what do you find at the end of Lonely Street?
+
+[Answer]
+music
+
+[Rationale]
+Elvis presely is a famous singer. Based on this fact, the question can be broadly classified as 'music'.
+
+
+
+[Example 7]
+[Instruction and Question]
+Given a question as input, give its short_answer as the output \n\n1 acre equals how many hectares?
+
+[Answer]
+0.404686
+
+[Rationale]
+One acre is equal to 0.404686 hectares (approx).
+
+
+
+
+[Example 8]
+[Instruction and Question]
+You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue. For simplicity, answers should be in all lower cased letters.\n\nCategory: AROUND THE WORLD \nClue: According to legend, this country's city of Cuzco was built by Nanco Capac, the first ruler of the Incas
+
+[Answer]
+peru
+
+[Rationale]
+The answer would be the country that has Cuzco as a city. Cuzco is a city in Peru.
+
+
+
+[Example 9]
+[Instruction and Question]
+In this task, you have to generate the title of the recipe given its required ingredients and directions.\n\ningredients:  '4 whole Eggs', '1-2/3 cup Brown Sugar', '1-1/3 cup White Sugar', '1 teaspoon Vanilla', '2-2/3 teaspoons Baking Soda', '2/3 cups Butter', '2 cups Smooth Peanut Butter', '6 cups Rolled Oats', '1 cup Chocolate Chips', '1 cup Butterscotch Chips', '1 cup Smarties',<sep> directions: 'Mix the first 8 ingredients well. Stir in rolled oats, chocolate and butterscotch chips, and Smarties. Mix well.', 'Drop by tablespoonfuls onto a parchment paper-lined cookie sheet. Bake at 350 degrees Fahrenheit for 15 minutes.'
+
+[Answer]
+Monster Cookies
+
+[Rationale]
+The wide variety of ingredients, such as peanut butter, chocolate chips, butterscotch chips, and Smarties indicates it is a cookie recipe. The large size of the cookies also adds to the idea of them being "monster" cookies. The directions mention dropping the dough by tablespoonfuls onto a cookie sheet, which reinforces the idea of large, monster-sized cookies.
+
+
+
+[Example 10]
+[Instruction and Question]

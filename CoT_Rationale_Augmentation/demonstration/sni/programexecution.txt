@@ -1,0 +1,98 @@
+[Example 1]
+[Instruction and Question]
+In mathematics, the absolute value of a number is the non-negative value of that number, without regarding its sign. For example, the absolute value of -2 is 2, and the absolute value of 5 is 5. In this task you will be given a list of numbers and you need to return the element with highest absolute value. If a negative and positive element have the same absolute value you should return the positive element. The absolute value for negative numbers can be found by multiplying them by -1. After finding the element with the maximum absolute value you should return the value of that element before you applied the absolute value.\n\n[-36.642 -92.499 -81.859  71.021 -90.55  -98.633 -29.564  58.697  62.083\n -56.353]
+
+[Answer]
+-98.633
+
+[Rationale]
+The element with the highest absolute value in the given list is -98.633, which has an absolute value of 98.633. The absolute value of all other numbers in the list is less than or equal to 98.633. However, we need to return the value of the element before applying the absolute value, so the answer is -98.633.
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task you are given a list of numbers and you need to find the average of each two consecutive values. The average of two numbers a and b is calculated as: (a + b) /2. The output should be a list of the averages of each two consecutive values. A list is presented with two brackets and comma-separated values, like: [1,2,3].\n\n[-24, -89, -70, 48, -50, 86, 66, 92, 70, 85, -72]
+
+[Answer]
+[-56.5, -79.5, -11.0, -1.0, 18.0, 76.0, 79.0, 81.0, 77.5, 6.5]
+
+[Rationale]
+The average of -24 and -89 is (-24 + (-89)) / 2 = -56.5\nThe average of -89 and -70 is (-89 + (-70)) / 2 = -79.5\nThe average of -70 and 48 is (-70 + 48) / 2 = -11\nThe average of 48 and -50 is (48 + (-50)) / 2 = -1\nThe average of -50 and 86 is (-50 + 86) / 2 = 18\nThe average of 86 and 66 is (86 + 66) / 2 = 76\nThe average of 66 and 92 is (66 + 92) / 2 = 79\nThe average of 92 and 70 is (92 + 70) / 2 = 81\nThe average of 70 and 85 is (70 + 85) / 2 = 77.5\nThe average of 85 and -72 is (85 + (-72)) / 2 = -17.5
+
+
+
+[Example 3]
+[Instruction and Question]
+In this task, you are given inputs i and A, where i is an integer and A is a list. You need to output the first i elements of A, starting with the 1st element in A. i will always have a value less than the length of A\n\n4, ['1189', 'f', '7341', '7391', 'p', '8555', '5925', '73', 'O', 'q', '2401', 'S', '3803', 'r', 'U']
+
+[Answer]
+1189, f, 7341, 7391
+
+[Rationale]
+Given the list ['1189', 'f', '7341', '7391', 'p', '8555', '5925', '73', 'O', 'q', '2401', 'S', '3803', 'r', 'U'] as input, we need to find the first 4 elements:\n1. The 1st element is 1189.\n2. The 2nd element is 'f'.\n3. The 3rd element is '7341'.\n4. The 4th element is '7391'.\n\nThe final output would be ['1189', 'f', '7341', '7391'].
+
+
+
+[Example 4]
+[Instruction and Question]
+You are given a list of integers and an integer target, return a list of a pair of numbers in any order such that they add up to target. If there is no such pair of numbers, then return an empty list\n\n[42, 22, 36, 49, 31, 33, 27, 24, 37, 26, 34, 46, 16, 29, 40, 41, 2, 39, 11, 17], target=88
+
+[Answer]
+[42, 46]
+
+[Rationale]
+Among list, 42 and 46 adds up to 88.
+
+
+
+[Example 5]
+[Instruction and Question]
+In this task, you are given a string of characters. You need to remove duplicate characters from the string if any, and return the resulting string.\n\nPgnuLHMWcjJVzGyJelrh
+
+[Answer]
+PgnuLHMWcjJVzGyelrh
+
+[Rationale]
+Since there are no duplicate characters in the given string, the resulting string will be the same as the input string. Therefore, the output will be "PgnuLHMWcjVzGyJelrh".
+
+
+
+[Example 6]
+[Instruction and Question]
+In this task, you need to count the number of vowels (letters 'a', 'e', 'i', 'o', 'u') / consonants (all letters other than vowels) in the given sentence.\n\nSentence: 'a metro bus stopped at an intersection with tall building in the background'. Count the number of vowels in the given sentence.
+
+[Answer]
+23
+
+[Rationale]
+Given the sentence 'a metro bus stopped at an intersection with tall building in the background', let's try one word-by-word.\n1. 'a' : 1 -> (total) 1\n2. 'metro' : 2 -> (total) 3\n3. 'bus' : 1 -> (total) 4\n4. 'stopped' : 2 -> (total) 6\n5. 'at' : 1 -> (total) 7\n6. 'an' : 1 -> (total) 8\n7. 'intersection' : 5 -> (total) 13\n8. 'with' : 1 -> (total) 14\n9. 'tall' : 1 -> (total) 15\n10. 'building' : 3 -> (total) 18\n11. 'in' : 1 -> (total) 19\n12. 'the' : 1 -> (total) 20\n13. 'background' : 3 -> (total) 23\n\nThe final total number is 23.
+
+
+
+[Example 7]
+[Instruction and Question]
+In this task you will be given a string of characters. You should remove all vowels from the given string. Vowels are: i,e,a,u,o. The character 'y' or 'Y' does not count as a vowel.\n\nEDIOEOXxdSzUiKOPZ
+
+[Answer]
+DXxdSzKPZ
+
+[Rationale]
+The given string contains the vowels 'E', 'I', 'O', 'E', 'O', 'U', and 'I', which should be removed according to the instructions. The resulting string after removing the vowels is 'DXxdSzKPZ'.
+
+
+
+[Example 8]
+[Instruction and Question]
+In this task, you are given inputs i,j, and A, where i and j are integers and A is a list. You need to return the sum of all the numerical elements in the list A between the positions i and j (including positions i and j). Return 0 if no numerical element is present in the list between the given ranges. i and j will be non-negative, and will always have a value less than the length of A. i will always be less than j.\n\n12, 15, ['7933', '6321', '6815', 'r', 'y', '2015', 'I', 'e', '7733', '1969', '1973', '3141', '6607', 'n', '5417', '5927', '8123', 'j', 'G', 'f', 'F', '3305', 'M', 'E', 'v', 'c']
+
+[Answer]
+15165
+
+[Rationale]
+Given the list ['7933', '6321', '6815', 'r', 'y', '2015', 'I', 'e', '7733', '1969', '1973', '3141', '6607', 'n', '5417', '5927', '8123', 'j', 'G', 'f', 'F', '3305', 'M', 'E', 'v', 'c'], we need to find the elements within the range 12 ~ 15.\n1. The 12nd element is 3141.\n2. The 13th element is 6607.\n3. The 14th element is n. This is converted into 0 during the final calculation.\n4. The 15th element is 5417.\n\nCalculating the final results, 3141 + 6607 + 0 + 5417 = 9748 + 5417 = 15165.
+
+
+
+[Example 9]
+[Instruction and Question]

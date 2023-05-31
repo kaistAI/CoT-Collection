@@ -1,0 +1,133 @@
+[Example 1]
+[Instruction and Question]
+question: Teacher asked me this: Solve 3*j + 16 = -5*j for j.\n++++++++++\nanswer:
+
+[Answer]
+-2
+
+[Rationale]
+The given equation is 3j + 16 = -5j. To solve for j, we need to isolate j on one side of the equation.
+
+First, we can simplify the equation by adding 5j to both sides:
+
+3j + 16 + 5j = 0
+
+Combining like terms, we get:
+
+8j + 16 = 0
+
+Subtracting 16 from both sides:
+
+8j = -16
+
+Dividing both sides by 8:
+
+j = -2
+
+Therefore, the solution for j is -2.
+
+
+
+[Example 2]
+[Instruction and Question]
+Solve 1875954*s - 817 = 1875935*s for s.\nSolve this plz.\nA:
+
+[Answer]
+43
+
+[Rationale]
+We need to isolate the variable s on one side of the equation.
+
+[STEP 1] 1875954*s - 1875935*s = 817
+[STEP 2] 19*s = 817
+[STEP3] s = 817/19
+[STEP4] s = 43
+
+
+
+[Example 3]
+[Instruction and Question]
+QUESTION: Math problem: Solve 2767686 = 158*f + 2754414 for f.\nANS:
+
+[Answer]
+84
+
+[Rationale]
+[STEP 1] 2767686 - 2754414 = 158*f
+[STEP 2] 13272 = 158*f
+[STEP 3] 13272/158 = f
+[STEP 4] f = 84
+
+
+
+[Example 4]
+[Instruction and Question]
+Q: What is the solution?\nSolve -46*y + 24 = -34*y for y.\n\nA:
+
+[Answer]
+2
+
+[Rationale]
+We need to isolate the variable y on one side of the equation.
+
+[STEP 1] 46*y - 34*y = 24
+[STEP 2] 12*y = 24
+[STEP3] y = 24 / 12
+[STEP4] y = 2
+
+
+
+[Example 5]
+[Instruction and Question]
+Write down the solution for this math problem: Solve -21181 + 8447 = 497*p + 9401 + 3709 for p.\nanswer:
+
+[Answer]
+-52
+
+[Rationale]
+-21181 + 8447 = 497p + 9401 + 3709
+
+Simplifying the left-hand side of the equation:
+
+-12734 = 497p + 13110
+
+Subtracting 13110 from both sides:
+
+-25844 = 497p
+
+Dividing both sides by 497:
+
+p = -52
+
+Therefore, the solution for the given math problem is p = -52.
+
+
+
+[Example 6]
+[Instruction and Question]
+Q: Solve 493 = 18*r + 403 for r.\n\nA:
+
+[Answer]
+5
+
+[Rationale]
+To solve for r, we need to isolate the variable on one side of the equation.
+
+Starting with:
+
+493 = 18*r + 403
+
+Subtract 403 from both sides:
+
+90 = 18*r
+
+Divide both sides by 18:
+
+r = 5
+
+Therefore, the solution for r is 5.
+
+
+
+[Example 7]
+[Instruction and Question]

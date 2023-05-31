@@ -1,0 +1,146 @@
+[Example 1]
+[Instruction and Question]
+In this task, you will be shown a short story with a beginning, two potential middles, and an ending. Your job is to choose the middle statement that makes the story incoherent / implausible by indicating 1 or 2 in the output. If both sentences are plausible, pick the one that makes less sense.\n\nBeginning: May needed to lose a lot of weight. Middle 1: she decided to hire a fitness trainer and dietician. Middle 2: she decided to hire a fitness trainer and dietician, but it didn't help. Ending: With their help, May lost forty pounds!
+
+[Answer]
+2
+
+[Rationale]
+Middle 1 indicates that May took action to achieve her goal of losing weight by hiring a fitness trainer and dietician, and with their help, she succeeded in losing forty pounds. Middle 2 also indicates that May hired a fitness trainer and dietician, but despite their help, she didn't achieve her goal of losing weight. So Middle 2 makes less sense.
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether The Tail is the reason for the Head or not. The reason provides a post-fact explanation of the cause of an event. For example, why one has to walk could be explained by a car has broken down. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.\n\nHead: PersonX accepts the invitation<sep>Tail: makes new friends
+
+[Answer]
+No
+
+[Rationale]
+While making new friends could be a potential outcome of accepting the invitation, it does not explain why PersonX accepted the invitation in the first place. Therefore the Tail does not directly provide a reason for the Head.
+
+
+
+[Example 3]
+[Instruction and Question]
+You will be given a passage consisting of set of facts and a question as input. The task is to answer a question of form 'Where is <person_name>?' using one of the given facts to determine the latest location of the person. Answer should be a word/phrase describing the location from the supporting fact. Avoid answers that are incomplete or incorrect.\n\nPassage: Daniel went to the bedroom. Mary went to the kitchen. Mary travelled to the bedroom. John journeyed to the bathroom. Sandra moved to the garden. Sandra went to the office. Daniel went back to the hallway. Sandra moved to the kitchen. Question: Where is Sandra?
+
+[Answer]
+kitchen
+
+[Rationale]
+We can be infer from the last fact in the passage which states "Sandra moved to the kitchen."
+
+
+
+[Example 4]
+[Instruction and Question]
+Two analogies that relate places/locations to the associated travel mode is given in the form \"A : B. C : ?\". \"A : B\" relates place A to travel mode B. Your task is to replace the question mark (?) with the appropriate travel mode for the given place C, following the \"A : B\" relation.\n\nhotel : taxi. france : ?
+
+[Answer]
+airplane
+
+[Rationale]
+To go to the hotel, one could take a taxi. Similarily, one could go to France by taking an airplane.
+
+
+
+[Example 5]
+[Instruction and Question]
+Given an object and a part, decide whether the object has that part. For example is you are asked 'gun has barrel', you need to decide if a gun has a barrel as one of its components or parts. All sentences strictly follow the template 'object has part?.' The answer should be 1 or 0, 1 means the object has the given part, while 0 means it doesn't have the part.\n\nhusband has wife?
+
+[Answer]
+1
+
+[Rationale]
+A husband is a term used to describe a married man, which implies that he has a wife as his partner in marriage. Therefore, a husband has a wife.
+
+
+
+[Example 6]
+[Instruction and Question]
+You are provided with an \"Event\" and it's \"Intent\" related to PersonX. Determine the sentiment value of the given input as either \"Positive\", \"Negative\", and \"Unknown\". \n\nEvent:PersonX talks to PersonY about anything. Intent: 1) protect themselves 2) stand up for themselves
+
+[Answer]
+Unknown
+
+[Rationale]
+The intent of "protect themselves" and "stand up for themselves" could potentially suggest a negative or positive sentiment depending on the context and the nature of the conversation between PersonX and PersonY. Additionally, the event of simply "talking about anything" is too vague to infer any sentiment.
+
+
+
+[Example 7]
+[Instruction and Question]
+In this task, you will be given a short story. One sentence from the story is chosen. Consider the likely emotions and basic human drives of the participants in that sentence. Does any of these states of mind/feelings motivate the participant to do what happens in that sentence? You should write your answer in the form \" A >Motivates> B\". Try to use phrases and sentences from the story to compose your answer when possible. For the motivation sentence, you must choose a verb from :feel(s), want(s) or like(s). There will always be some motivation in the given story.\n\nstory: Ed took his dog Molly to the dog park. He was feeling sad because he and his girl had recently broken up. As he sat watching his dog play, a pretty woman sat next to him. They started chatting and really hit it off. They made a date for the following weekend for dinner.\n selected sentence: As he sat watching his dog play, a pretty woman sat next to him.
+
+[Answer]
+Ed like(s) watching his dog play >Motivates> Ed watches his dog play
+
+[Rationale]
+Ed's enjoyment of watching his dog play motivates him to sit and watch his dog at the dog park.
+
+
+
+[Example 8]
+[Instruction and Question]
+In this task, we ask you to write an answer to a question that involves event \"frequency\", which refers to how often an event is likely to be repeated. For example, \"taking showers\" typically occurs ~5 times a week, \"going to Saturday market\" usually happens every few weeks/months, etc. Note that a lot of the questions could have more than one correct answer. We only need a single most-likely answer. Please try to keep your \"answer\" as simple as possible. Concise and simple \"answer\" is preferred over those complex and verbose ones.\n\nSentence: Tommy and Suzy (brother and sister) went to the playground one afternoon with their mom and dad, Jan and Dean. \nQuestion: How often did they go to the playground?
+
+[Answer]
+three times a week
+
+[Rationale]
+The family would go to the playground on a regular basis, specifically three times a week.
+
+
+
+[Example 9]
+[Instruction and Question]
+Given a sentence with a missing word, pick the answer option that best fills out the missing word in the sentence. Indicate each answer with its index ('a', 'b', 'c', 'd').\n\nUnconsciousness can take place within one to ____ minutes.\\Question: Choose the right answer from options given a) no b) two c) one d) zero
+
+[Answer]
+b
+
+[Rationale]
+The sentence is discussing how quickly unconsciousness can occur. Before choosing among the options, it is good to remind there is a phrase "one to two minutes" meaning that something happens very quickly.
+
+
+
+[Example 10]
+[Instruction and Question]
+In this task, you're given four sentences of a story written in natural language in which one part is missing. Your job is to predict the position and missing part of the story and return in the following format: position, missing part. The missing part is a sentence that completes the story, and the position is the number of the missing sentence in the new story.\n\nSentence1: Fred always stopped at the same coffee shop before work. Sentence2: He got to know the attractive barista. Sentence3: He developed a crush on her. Sentence4: She said yes.
+
+[Answer]
+4, Finally Fred worked up the courage to ask her on a date
+
+[Rationale]
+The story does not explain why the barista said yes to Fred. It is most likely that Fred asked her to go on a date with him. So the completed story would look like:\nSentence1: Fred always stopped at the same coffee shop before work.\nSentence2: He got to know the attractive barista.\nSentence3: He developed a crush on her.\nMissing Sentence: Finally Fred worked up the courage to ask her on a date.\nSentence4: She said yes.\n\nSince the missing sentence is inserted in front of Sentence4, the first answer is "4" and the second answer is "Finally Fred worked up the courage to ask her on a date".
+
+
+
+[Example 11]
+[Instruction and Question]
+In the following task, you are given a yes/no question, its answer, and additional information which includes a description of a key term in the question and several facts. Your task is to \"decompose the question\"i.e. write the steps required to construct the given answer where each step is a question that can be answered using Wikipedia articles. To decompose the question, think of a decomposition strategy you could apply to answer the question through a search against Wikipedia. The decomposition strategy might not be obvious for some questions. For this reason, you are provided with additional information. You are not required to write decompositions that exactly match the provided facts, they are only meant as guidance. If the facts are too noisy, think about how you would have used Wikipedia to answer this question to create the decomposition. \"not_definitive_answer\" is true if there is no clear answer i.e. the question is ambiguous or a subjective opinion.\"incorrect_answer\" is true if the answer to the question is not correct. If the answer is incorrect, write a decomposition that evaluates the correct answer. Each question should be easy to answer based on simple facts from Wikipedia pages, or a simple check using the answers to preceding questions. To ensure this, we also ask you to enter a potential Wikipedia article that would contain the answer to each question. If you can not think of a Wikipedia page that can answer your question, please think of a different strategy. You do not need to enter a Wikipedia page for steps that don't add new information and only contain simple checks. The answer to the final question is the same as the answer to the original question. Every question's answer has an impact on the final answer and there should be no redundant steps in the decomposition.\n\nQuestion: Can oysters be preserved without refrigeration?, Answer:Yes, Description of Oyster: salt-water bivalve mollusc, Fact1: In some types of Korean kimchi, oysters are placed between the leaves of nappa cabbage. , Fact2: Many grocery stores carry canned oysters in the shelf stable section. 
+
+[Answer]
+Step1: How are oysters preserved in various types of Korean kimchi?, Step2: What are the common methods of preserving oysters in grocery stores?, Step3: Do any of #1 or #2 not require refrigeration?, Wikipedia page for step 1: Kimchi, Wikipedia page for step 2: Oyster, Wikipedia page for step 3: , not_definitive_answer: False, incorrect_answer: False
+
+[Rationale]
+The question is asking if oysters can be preserved without refrigeration. To answer this, we need to know how oysters are preserved in general. The description of oysters tells us that they are a salt-water bivalve mollusc.\nTo decompose the question, we can start by asking how oysters are preserved in various types of Korean kimchi (Step1), which would lead us to the Wikipedia page for Kimchi. Next, we can ask what the common methods of preserving oysters in grocery stores are (Step2), which would lead us to the Wikipedia page for Oyster.\nBased on the information we gather from Step1 and Step2, we can ask if any of the methods described do not require refrigeration (Step3). If we find that some methods do not require refrigeration, we can conclude that oysters can be preserved without refrigeration.
+
+
+
+[Example 12]
+[Instruction and Question]
+Given a premise, an initial context, an original ending, and a counterfactual context, the task is to generate a new story ending aligned with the counterfactual context and as close to the original ending as possible. Each instance consists of a five-sentence story. The premise is the first sentence of a story, and the second sentence, which is the initial context, provides more information about the story's context and the story's general plot. The original ending is the last three sentences of the story. Also, a counterfactual context is a slight modification to the initial context. You should write a new story ending that edits the original story ending as little as possible to regain coherence with the counterfactual context. To sum up, you should write the last three sentences of a story based on the premise(first sentence) and the counterfactual context(second sentence) of the story.\n\nPremise: I used to pitch for my high school baseball team. \n Initial Context: I was a very good pitcher. \n Original Ending: I spent my weekends throwing fastballs with my dad. All that practice really helped me out. I feel like I had developed a perfect fastball. \n Counterfactual Context: I was so bad they moved me to right field.
+
+[Answer]
+I spent the weekends catching fly balls with my dad. All that practice really helped me out. I feel like I had developed into a great right fielder.
+
+[Rationale]
+The original ending implies that the protagonist is a successful pitcher, but the counterfactual context changes that by stating that they were moved to right field due to their lack of skill. To regain coherence with the counterfactual context, the new ending needs to reflect this change. Instead of practicing fastballs, the protagonist now spends their weekends catching fly balls with their dad, which is a suitable activity for a right fielder. The rest of the new ending is similar to the original one, with the protagonist feeling like they have improved their skills.
+
+
+
+[Example 13]
+[Instruction and Question]

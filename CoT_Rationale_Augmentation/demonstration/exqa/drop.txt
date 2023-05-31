@@ -1,0 +1,85 @@
+[Example 1]
+[Instruction and Question] 
+Read this article and answer this question The Ravens started their season at home against the Bengals.  They jumped out to a 3-0 lead in the first quarter with Justin Tucker's 46-yard field goal.  This was followed up by Ray Rice's 7-yard run to make the score 10-0.  The Bengals got on the board in the 2nd quarter with Mike Nugent's 34-yard field goal to shorten the lead to 10-3.  However, the Ravens were able to pull away as Joe Flacco found Anquan Boldin on a 34-yard touchdown pass to move ahead 17-3.  The Bengals responded coming within 7 when Benjarvus Green-Ellis ran for a 6-yard touchdown making the score 17-10 at halftime.  In the 3rd quarter, the Bengals were able to get within 4 points with Nugent kicking a 19-yard field goal shortening the Ravens' lead to 4 17-13.  However, the Ravens overpowered the Bengals scoring 27 unanswered points as Flacco found Dennis Pitta on a 10-yard pass to move ahead 24-13 followed up by Tucker scoring a 40-yard field goal moving them ahead 27-13.  This was followed by an Ed Reed interception that was returned 34 yards for a touchdown moving the team ahead 34-13.  In the 4th quarter, the Ravens scored again off of Rice's 1-yard run for a 41-13 lead and finished the game off of Tucker's 39-yard field goal to make the final score 44-13. Ed Reed returned an interception for a 34-yard touchdown, making Reed the all-time leader in career interception return yards with 1,497. The previous record of 1,483 yards was held by Rod Woodson.\nHow many yards did Rice rush for on his two touchdown runs?
+
+[Answer] 
+8
+
+[Rationale]
+To calculate how far Rice ran in his two touchdown runs, you need to check how far he ran in each run. First, Rice ran 7-yards when the score became 10-0. Second, Rice ran 1-yard when the score became 41-13. Therefore, we could conclude that he ran 7+1=8 yards in total.
+
+
+
+[Example 2]
+[Instruction and Question]
+The Colts came into this game three games ahead of the Jaguars in the AFC South standings, and with a win in this game, the Colts can clinch a playoff spot and the AFC South Championship for the fourth straight year. On the Jaguars' first play from scrimmage, RB Fred Taylor ran up the middle for 76 yards down to the Colts' 18-yard line. On the following play rookie RB Maurice Jones-Drew rushed 18 yards for the first score of the game. The Colts led the Jaguars at one point in the game, 10-7, but after Jacksonville scored six times before the Colts scored again, there was no way to catch up. The Colts allowed 375 rushing yards in this game, the second-highest total since the NFL-AFL merger in 1970. Jacksonville RB Maurice Jones-Drew ran for 166 yards and RB Fred Taylor ran for 131 yards. Third-string RB Alvin Pearman also ran for 71 yards. To further emphasize how effective the Jacksonville running game was, Jaguars QB David Garrard was only 8 for 14 with 79 yards passing. While he only threw the ball 14 times, Colts QB Peyton Manning threw the ball 50 times, completing 25 of those passes for 313 passing yards. Neither quarterback threw a touchdown pass, but both of them threw one interception each. The Colts WR tandem of Marvin Harrison and Reggie Wayne did well in this game. Harrison had 8 catches for 110 yards receiving, and Wayne had 6 catches for 101 yards. Jaguars RB Maurice Jones-Drew did not just succeed on offense&#8212;he ran back an Adam Vinatieri kickoff 93 yards for a touchdown also. The Colts lost SS Antoine Bethea to a shoulder injury, and he would not return. The Colts moved to 10-3, losing first place in the AFC, while the Jaguars improved to 8-5.\n\nAsk a question about this article.
+
+[Answer]
+how many yards did Taylor run up?
+
+[Rationale]
+Here's a question for the given article:\n\nQuestion: how many yards did Taylor run up?
+
+
+
+[Example 3]
+[Instruction and Question] 
+Macquarie University (MQ) world rankings includes it being number 240 on the QS rankings, number 251+ on Times (THE), number 151+ on ARWU, and  number 267 with US News. This contributes to Macquarie being the number 8 ranked Australian university overall in the world ranking systems. Macquarie University rankings within Australia include being placed at number 8 on the ERA scale (2012) and being a 4 1/2 Star AEN rated university. Macquarie also has a student survey satisfaction rating of 77.4% for business, 90.3% for health, 91.4% for arts, and 93.8% for science. Macquarie is ranked in the top 40 universities in the Asia-Pacific region and within Australias top 12 universities according to the Academic Ranking of World Universities, the U.S. News & World Report Rankings and the QS World University Rankings. Macquarie was the highest ranked university in Australia under the age of 50 and was ranked 18th in the world (prior to its golden jubilee in 2014), according to the QS World University Rankings.\n\nHow many points higher is the satisfaction rating of science than arts?
+
+[Answer] 
+2.4
+
+[Rationale]
+In order to answer how many points higher the satisfaction rating of science is compared to arts, we first need to identify each satisfaction rating and subtract them. (STEP 1) science = 93.8%, (STEP 2) art = 91.4% (STEP 3) difference = 93.8 - 91.4 = 2.4%
+
+
+
+[Example 4]
+[Instruction and Question] 
+Context: Samuel Shute was an English military officer and royal governor of the provinces of Massachusetts and New Hampshire.  After serving in the Nine Years' War and the War of the Spanish Succession, he was appointed by King George I as governor of Massachusetts and New Hampshire in 1716.  His tenure was marked by virulent disagreements with the Massachusetts assembly on a variety of issues, and by poorly conducted diplomacy with respect to the Native American Wabanaki Confederacy of northern New England that led to Dummer's War . Although Shute was partly responsible for the breakdown in negotiations with the Wabanakis, he returned to England in early 1723 to procure resolutions to his ongoing disagreements with the Massachusetts assembly, leaving conduct of the war to Lieutenant Governor William Dummer.  His protests resulted in the issuance in 1725 of the Explanatory Charter, essentially confirming his position in the disputes with the assembly.  He did not return to New England, being replaced as governor in 1728 by William Burnet, and refused to be considered for reappointment after Burnet's sudden death in 1729. Thomas Hutchinson , in his history of Massachusetts, described Shute's tenure as governor as the most contentious since the Antinomian Controversy of the 1630s.\n\nQuestion: Who was governor first: William Dummer or William Burnet?\n\nAnswer:
+
+[Answer] 
+William Dummer
+
+[Rationale]
+To solve the problem "Who was governor first: William Dummer or William Burnet?", we need to compare the year when William Dummer and William Burnet were governors. For William Dummer, it is mentioned that he was governor when Shute returned to England in early 1723. For William Burnet, it is mentioned that he became the governor in 1728. Since 1723 is earlier than 1728, William Dummer became the governor earlier than William Burnet.
+
+
+
+[Example 5]
+[Instruction and Question]
+Write an article that answers the following question: How many cities did the refugees of the Hamidian massacres originate?
+
+[Answer]
+According to available information, the about 1,000 refugees from the Hamidian massacres  mainly originated from Diyarbakir , Aintab and Kilis; only about 100 of them stayed. The next wave of Armenian refugees were the about 2,000 who fled the Adana massacre in 1909, most of whom returned to their ancestral homes in Adana within the same year. However, the largest wave of Armenian refugees - some of whom had come before and returned - were the nearly 9,000 who escaped the massive deportations, the horrific massacres and the Genocide perpetrated by the Ottomans and the Young Turks; about 1,300 of them decided to stay, while the others eventually made arrangements to settle in other countries. Those refugees came mainly from Adana and Seleucia , while there a significant number of them came from Sis, Marash, Tarsus, Caesarea, Hadjin and Aintab; smaller numbers came from other places, alphabetically: Adapazar, Adrianople , Afion-Karahisar, Alexandretta , Arapgir, Armash, Baghche, Bardizag, Balian Dagh, Biredjik, Bitlis, Brusa, Chemishgezek, Constantinople , D\u00f6rtyol, Edessa ,  Erzerum, Eskishehir, Everek, Ikonion , Jeyhan, Kesab, Kharpert, Kutahia, Malatia, Mersin, Misis, Musa Dagh , Nicomedia , Rhaedestos , Sasun, Sebastia , Shar, Sivri Hisar, Smyrna , Tokat , Trepizond, Van, Yerzinga, Yozgat and Zeitun.
+
+[Rationale]
+Here's an example of an article for the given question:\n\nArticle: According to available information, the about 1,000 refugees from the Hamidian massacres  mainly originated from Diyarbakir , Aintab and Kilis; only about 100 of them stayed. The next wave of Armenian refugees were the about 2,000 who fled the Adana massacre in 1909, most of whom returned to their ancestral homes in Adana within the same year. However, the largest wave of Armenian refugees - some of whom had come before and returned - were the nearly 9,000 who escaped the massive deportations, the horrific massacres and the Genocide perpetrated by the Ottomans and the Young Turks; about 1,300 of them decided to stay, while the others eventually made arrangements to settle in other countries. Those refugees came mainly from Adana and Seleucia , while there a significant number of them came from Sis, Marash, Tarsus, Caesarea, Hadjin and Aintab; smaller numbers came from other places, alphabetically: Adapazar, Adrianople , Afion-Karahisar, Alexandretta , Arapgir, Armash, Baghche, Bardizag, Balian Dagh, Biredjik, Bitlis, Brusa, Chemishgezek, Constantinople , D\u00f6rtyol, Edessa ,  Erzerum, Eskishehir, Everek, Ikonion , Jeyhan, Kesab, Kharpert, Kutahia, Malatia, Mersin, Misis, Musa Dagh , Nicomedia , Rhaedestos , Sasun, Sebastia , Shar, Sivri Hisar, Smyrna , Tokat , Trepizond, Van, Yerzinga, Yozgat and Zeitun.
+
+
+
+[Example 6]
+[Instruction and Question]
+In March 1768, Ming Rui began his retreat, pursued by a Burmese army of 10,000 men and 2000 cavalry. The Burmese then tried to encircle the Chinese by splitting the army into two. Maha Thiha Thura had now assumed the overall command, replacing Maha Sithu. The smaller army, led by Maha Sithu, continued to pursue Ming Rui while the larger army led by Maha Thiha Thura advanced through the mountainous route to emerge directly behind the Chinese. Through careful maneuvering, the Burmese managed to achieve complete encirclement of the Chinese at modern-day Pyinoolwin , about 50 miles northeast of Ava. Over the course of three days of bloody fighting, the Bannerman army was completely annihilated. The slaughter was such that the Burmese could hardly grip their swords as the hilts were slippery with enemy blood. Of the original 30,000 men of the main army, only 2500 remained alive and were captured. The rest had been killed either on the battlefield, through disease or through execution after their surrender. Ming Rui himself was severely wounded in battle. Only a small group managed to break through and escaped the carnage. Ming Rui himself could have escaped with that group. Instead, he cut off his queue and sent it to the emperor as a token of his loyalty by those who were escaping. He then hanged himself on a tree. In the end, only a few dozen of the main army returned.\nAnswer this question: How many of the 30000 men did not survive?
+
+[Answer] 
+27500
+
+[Rationale]
+The goal of this problem is to calculate how many of the 30000 men did not survive. Before that, we have to check how many men actually survived. In the passage, it is said that "only 2500 remained alive and were captured". Therefore we could conclude that 30000 - 2500 = 27500 men did not survive.
+
+
+
+[Example 7]
+[Instruction and Question]
+The Battle of Stiklestad  in 1030 is one of the most famous battles in the history of Norway. In this battle, King Olaf II of Norway  was killed. During the pontificate of Pope Alexander III, the Roman Catholic Church  declared Olaf a saint in 1164. His younger half-brother, Harald Hardrada, was also present at the battle. Harald was only fifteen when the battle of Stiklestad took place. He became King of Norway in 1047, only to die in a failed invasion of England at the Battle of Stamford Bridge in 1066. The authenticity of the battle as a historical event is subject to question. Contemporary sources say the king was murdered. According to the Anglo Saxon Chronicle of 1030, Olaf was killed by his own people. Adam of Bremen wrote in 1070 that Olaf was killed in an ambush, and so did Florence of Worcester in 1100. Those are the only contemporary sources that mention the death of the king. After the king's canonization it was felt that the saint could not have died in such circumstances.  The story of the Battle of Stiklestad as we know it gradually developed during the two centuries following the death of King Olaf. Saint Olaf must have fallen in a major battle for Christianity.\n\nBased on the above article, answer a question. How many years after Olaf II's death was he declared a saint?
+
+[Answer]
+134
+
+[Rationale]
+Olaf II of Norway was declared a saint by the Roman Catholic Church during the pontificate of Pope Alexander III in 1164, which is 134 years after his death in the Battle of Stiklestad in 1030.
+
+
+
+[Example 8]

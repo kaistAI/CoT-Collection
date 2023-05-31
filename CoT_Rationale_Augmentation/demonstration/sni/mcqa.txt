@@ -1,0 +1,110 @@
+[Example 1]
+[Instruction and Question]
+We would like you to assess the QUALITY of each of the following argument (discussing Gay Marriage) and determine if the argument is Valid or Invalid. A valid argument is clearly interpretable and either expresses an argument, or a premise or a conclusion that can be used in an argument for the topic of gay marriage. An invalid argument is a phrase that cannot be interpreted as an argument or not on the topic of gay marriage.\n\nSince marriage (love) is legally sanctioned for all heterosexuals, the same rights and protection should be granted to homosexuals who choose to marry...or these \"legalities\" should be terminated completely.
+
+[Answer]
+Valid
+
+[Rationale]
+The argument presents a clear argument for granting the same legal rights and protections to homosexuals who choose to marry as those granted to heterosexuals who marry, or for terminating legal marriage altogether.
+
+
+
+[Example 2]
+[Instruction and Question]
+In this task, you will be shown an English sentence. You need to classify the sentence as either a representation of an anaphor number agreement or as an incorrect representation. An anaphor is an expression whose interpretation depends upon another expression. Anaphor number agreement is a restriction where a phrase agrees with the preceeding expression: plurals match plurals or singular expressions match singular expressions. In this task a valid representation of anaphor number agreement should be denoted as 'good' while everything else should be denoted as 'bad'. A correct representation of an anaphor number agreement will be a grammatically correct instance of a sentence where the subject and self-referencing nouns match plurality. An incorrect representation is a sentence in which the subject and self-referencing noun's plurality do not match.\n\nMost children didn't boast about herself.
+
+[Answer]
+bad
+
+[Rationale]
+The subject of the sentence is "Most children", which is plural. However, the reflexive pronoun "herself" is singular and does not agree with the plurality of the subject. A correct representation would be "Most children didn't boast about themselves", where the plural subject "children" agrees with the plural reflexive pronoun "themselves".\nTherefore, This sentence is an incorrect representation of anaphor number agreement and should be denoted as "bad".
+
+
+
+[Example 3]
+[Instruction and Question]
+In this task, you are given a short passage that conveys a stereotype. A stereotype is an over-generalized belief about a particular group of people. You are expected to classify the passage into nine types of stereotype: race-color, socioeconomic, gender, disability, nationality, sexual-orientation, physical-appearance, religion, and age.\n\nPassage: He always took care of the yard work himself. He operated a riding lawn mower like no one's business.
+
+[Answer]
+gender
+
+[Rationale]
+The use of the pronoun "he" and the description of the subject's skill with the lawn mower are indicative of this gender stereotype. Therefore, the passage can be classified as a gender stereotype.
+
+
+
+[Example 4]
+[Instruction and Question]
+Classify the given a piece of financial news into three classes: positive, negative, and neutral. Output must be 'positive', 'negative', or 'neutral'.\n\nFinnish department store chain Stockmann Oyj Abp net profit rose to 39.8 mln euro ( $ 56.8 mln ) for the first nine months of 2007 from 37.4 mln euro ( $ 53.4 mln ) for the same period of 2006 .
+
+[Answer]
+positive
+
+[Rationale]
+This financial news states that the net profit of Finnish department store chain Stockmann Oyj Abp has increased from 37.4 million euros to 39.8 million euros for the first nine months of 2007 as compared to the same period of 2006. This indicates a growth in profits for the company, which is generally considered as a positive development. So, this financial news can be clarified as "positive".
+
+
+
+[Example 5]
+[Instruction and Question]
+In this task, you will be shown a prompt from a judicial decision and multiple holding statements derived from citations following text in a legal decision.  Holdings represent the governing legal rule when the law is applied to a particular set of facts. There are five answer choices for each citing text. The correct answer is the holding statement that corresponds to the citing text. The four incorrect answers are other holding statements. You should find the correct option. There is a <HOLDING> token in the position of the citing text prompt where the holding statement was extracted.\n\npersons for damages that result because of an injury to the corporation unless a special injury exists in the form of either: (1) a special duty, such as a contractual duty, between the defendant and the shareholder; or (2) an injury separate and distinct from that suffered by other shareholders. Healthsource, Inc., 2005-NMCA-097, \u00b6 25, 138 N.M. 70, 116 P.3d 861; Marchman, 120 N.M. at 81-82, 898 P.2d at 716-17. {14} Defendants argue that Marchman and Healthsource, Inc. are controlling and that Plaintiff lacks standing because neither exception applies. Furthermore, Defendants argue that, to the extent Plaintiff alleges mismanagement or negligence, these claims may also be asserted only derivatively. See Schwartzman v. Schwartzman Packing Co., 99 N.M. 436, 441, 659 P.2d 888, 893 (1983) (<HOLDING>). The district court agreed, and dismissed \n Holding statements: (A) recognizing privilege for corporate officers directors and shareholders to influence the actions of their corporation (B) holding that claims of corporation vest in corporation (C) holding that the trust fund and denuding theories of recovery were considered to belong to the debtor corporation because each action was created for the benefit of the corporation ie to vindicate injury to the corporation caused by improper actions by control persons (D) holding that a corporate plaintiffs claims must be dismissed on the ground of failure of any attorney to appear for the corporation (E) holding that claims against corporate officers for mismanagement belong to the corporation
+
+[Answer]
+(E)
+
+[Rationale]
+The defendants argue that the plaintiff lacks standing and claims of mismanagement can only be asserted derivatively. The holding statement cited in support of this argument is "holding that claims against corporate officers for mismanagement belong to the corporation" which is option (E).
+
+
+
+[Example 6]
+[Instruction and Question]
+In this task, you are given a multiple-choice question about healthcare. Answer the question based on your information and classify your answers into '1', '2', '3', and '4'.\n\nQuestion: The chemical reactions of the splicing process of the introns during the maturation of the pre-mRNAs consists of: \n Options:  <1> An oxidation-reduction reaction. <2> A transesterification reaction. <3> Two sequential transesterification reactions. <4> Three sequential transesterification reactions. <5> A transesterification reaction followed by another oxidation reaction.
+
+[Answer]
+3
+
+[Rationale]
+The splicing process of the introns during the maturation of pre-mRNAs involves the removal of introns and joining of exons to form a mature mRNA molecule. This process is catalyzed by a large ribonucleoprotein complex called the spliceosome, which carries out two sequential transesterification reactions to cleave the intron-exon junctions and ligate the exons together.
+
+
+
+[Example 7]
+[Instruction and Question]
+Given a passage classify if the passage has a definite objective/aim/goal or not. Output '1' if the passage has a defininte objective/aim/goal and output '0' if the passage does not have a definite objective/aim/goal.\n\nThe majority of studies assessing executive function in attention deficit disorder (ADD) have shown deficits in attentional set shifting using either the Wisconsin card sorting task or the intra-dimensional/extra-dimensional set-shifting task (ID/ED). Damage to the prefrontal cortex in humans, primates, and rodents impairs extra-dimensional (ED) shifts. Noradrenergic depletion of the medial prefrontal cortex in rats is sufficient to impair attentional set shifting. Atomoxetine, a selective norepinephrine (NE) re-uptake inhibitor, is hypothesized to produce beneficial effects in patient with ADD by augmenting NE release in prefrontal cortex.', 'We assessed the effects of systemic administration of atomoxetine (0.0, 0.1, 0.3, and 0.9 mg/kg/ml) in normal and noradrenergically lesioned (NE-LX) rats on attentional-set shifts. We replicated findings showing NE-LX rats are selectively impaired on the ED shifts but not reversals or other discriminations.', 'Atomoxetine remediated the attentional set-shifting impairments in NE-LX rats but impaired ED performance of non-lesioned rats.
+
+[Answer]
+0
+
+[Rationale]
+The passage describes a series of studies that investigate the effects of various manipulations on attentional set-shifting in rats, but it does not state a specific research question or hypothesis that the studies are designed to test. The passage provides information on the methods, results, and interpretations of the studies, but it does not explicitly state a main objective or aim. Therefore, the output is '0'.
+
+
+
+[Example 8]
+[Instruction and Question]
+You will be given a topic and an argument. Decide the argument's stance towards that topic. The argument's stance is in favor or against the topic. If the argument supports that topic, answer with \"in favor\"; otherwise, if the argument opposes the topic, answer with \"against\".\n\ntopic: Tibet independence\nargument: Tibet can follow the East Timor model to achieving independence
+
+[Answer]
+in favor
+
+[Rationale]
+The passage suggests that Tibet can achieve independence by following the model used by East Timor. This implies that the author believes that Tibet should be independent and supports the idea of Tibet becoming an independent nation. Therefore, the argument is "in favor" of Tibet independence.
+
+
+
+[Example 9]
+[Instruction and Question]
+In this task, you are given a word, followed by two sentences. Your task is to figure out whether both the sentences use the aforementioned word with the same meaning. You should respond with 'True' if the words in both sentences share the same meaning, and 'False' otherwise.\n\ncommunicate \n Sentence1: Many deaf people communicate with sign language. \n Sentence2: I feel I hardly know him; I just wish he'd communicate with me a little more.
+
+[Answer]
+False
+
+[Rationale]
+The word "communicate" is used with different meanings in both sentences. In the first sentence, "communicate" refers to the act of conveying information or expressing oneself through sign language, while in the second sentence, it refers to the act of sharing thoughts or feelings with someone else. The two meanings are different, so the answer is False.
+
+
+
+[Example 10]
+[Instruction and Question]
