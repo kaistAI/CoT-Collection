@@ -1,0 +1,1 @@
+python run.py --model_name code_davinci-002 --spilt train --data_coverage additional --data_file data_extraction/data/train/additional/original/additional_code_train_phase2_600.json+data_extraction/data/train/additional/original/additional_dialogue_train_phase2_1000.json

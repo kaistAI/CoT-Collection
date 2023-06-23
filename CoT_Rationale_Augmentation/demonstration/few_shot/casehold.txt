@@ -1,0 +1,15 @@
+Your job is to act as a professional annotator generating good quality rationales with the given task description, score criteria, input, possible options, and output.
+You should always try to make a Score 5 response ("Fully Compliant") in all cases.
+Do not try to make your prediction in the first sentence, but write a rationale that reflects a step-by-step reasoning process that could explain how to derive the final answer.
+
+Here is the task description:
+CaseHOLD (Case Holdings on Legal Decisions) dataset includes multiple choice questions about holdings of US court cases from the Harvard Law Library case law corpus. Holdings are short summaries of legal rulings accompany referenced decisions relevant for the present case. The input consists of an excerpt (or prompt) from a court decision, containing a reference to a particular case, while the holding statement is masked out. The model must identify the correct (masked) holding statement from a selection of five choices.
+
+Here is the scoring table
+Score 1 (Non-Explanatory): The rationale provides no meaningful explanation for the selection of the holding statement. It either doesn't address the main points of the excerpt or is so vague or irrelevant that it fails to clarify the reasoning behind the choice.
+Score 2 (Barely Explanatory): The rationale provides some explanation for the selection of the holding statement, but it is limited, significantly flawed, or confusing. It addresses some points of the excerpt, but the reasoning is not entirely clear or convincing.
+Score 3 (Moderately Explanatory): The rationale provides a decent explanation for the selection of the holding statement. It addresses the main points of the excerpt and offers some insight into the reasoning behind the choice, though there might be minor gaps or areas of uncertainty.
+Score 4 (Mostly Explanatory): The rationale provides a clear and comprehensive explanation for the selection of the holding statement. It directly addresses the main points of the excerpt and convincingly explains the reasoning behind the choice, with only minor issues or omissions.
+Score 5 (Fully Explanatory): The rationale provides an excellent, in-depth explanation for the selection of the holding statement. It addresses the main points of the excerpt comprehensively, explaining the reasoning behind the choice in a way that is clear, logical, and convincing.
+
+Now, let's start. After you write the score, please write [DONE] to indicate you are done. Do not write a prefix (e.g., "Response:") while writing an answer.

@@ -1,0 +1,15 @@
+Your job is to act as a professional annotator generating good quality rationales with the given task description, score criteria, input, possible options, and output.
+You should always try to make a Score 5 response ("Fully Compliant") in all cases.
+Do not try to make your prediction in the first sentence, but write a rationale that reflects a step-by-step reasoning process that could explain how to derive the final answer.
+
+Here is the task description:
+LEDGAR dataset aims contract provision (paragraph) classification. The contract provisions come from contracts obtained from the US Securities and Exchange Commission (SEC) filings, which are publicly available from EDGAR. Each label represents the single main topic (theme) of the corresponding contract provision.
+
+Here is the scoring table
+Score 1 (Non-Explanatory): The rationale provides no meaningful explanation for the yes/no/maybe answer. It fails to relate to the content of the question or the corresponding abstract and does not clarify the reasoning behind the provided answer.
+Score 2 (Barely Explanatory): The rationale provides some explanation for the answer, but it is significantly flawed, vague, or confusing. It attempts to relate to the question and abstract, but the connection and reasoning are unclear or unconvincing.
+Score 3 (Moderately Explanatory): The rationale provides a decent explanation for the answer. It makes some connection between the question and abstract and provides some reasoning behind the answer, but there may be minor gaps or areas of ambiguity.
+Score 4 (Mostly Explanatory): The rationale provides a clear and mostly comprehensive explanation for the answer. It effectively connects the question and abstract and explains the reasoning behind the answer, with only minor issues or omissions.
+Score 5 (Fully Explanatory): The rationale provides an excellent, in-depth explanation for the answer. It links the question and abstract effectively and comprehensively, explaining the reasoning behind the answer in a way that is clear, logical, and convincing.
+
+Now, let's start. After you write the score, please write [DONE] to indicate you are done. Do not write a prefix (e.g., "Response:") while writing an answer.

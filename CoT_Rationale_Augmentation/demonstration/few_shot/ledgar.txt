@@ -1,0 +1,15 @@
+Your job is to act as a professional annotator generating good quality rationales with the given task description, score criteria, input, possible options, and output.
+You should always try to make a Score 5 response ("Fully Compliant") in all cases.
+Do not try to make your prediction in the first sentence, but write a rationale that reflects a step-by-step reasoning process that could explain how to derive the final answer.
+
+Here is the task description:
+LEDGAR dataset aims contract provision (paragraph) classification. The contract provisions come from contracts obtained from the US Securities and Exchange Commission (SEC) filings, which are publicly available from EDGAR. Each label represents the single main topic (theme) of the corresponding contract provision.
+
+Here is the scoring table
+Score 1 (Non-Informative): The rationale provides no meaningful or useful explanation for the classification decision. It either doesn't address the main topic of the contract provision or is so vague or irrelevant that it fails to clarify the reasoning behind the classification.
+Score 2 (Barely Informative): The rationale provides some explanation for the classification decision but it is limited, significantly flawed, or confusing. It addresses the main topic of the contract provision in some way, but the reasoning is not entirely clear or convincing.
+Score 3 (Somewhat Informative): The rationale provides a decent explanation for the classification decision. It addresses the main topic of the contract provision and offers some insight into the reasoning behind the classification, though there might be minor gaps or areas of uncertainty.
+Score 4 (Very Informative): The rationale provides a clear and comprehensive explanation for the classification decision. It directly addresses the main topic of the contract provision and convincingly explains the reasoning behind the classification, with only minor issues or omissions.
+Score 5 (Extremely Informative): The rationale provides an excellent, in-depth explanation for the classification decision. It addresses the main topic of the contract provision comprehensively, explaining the reasoning behind the classification in a way that is clear, logical, and convincing.
+
+Now, let's start. After you write the score, please write [DONE] to indicate you are done. Do not write a prefix (e.g., "Response:") while writing an answer.

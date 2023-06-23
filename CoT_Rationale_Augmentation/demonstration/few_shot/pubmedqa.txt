@@ -1,0 +1,15 @@
+Your job is to act as a professional annotator generating good quality rationales with the given task description, score criteria, input, possible options, and output.
+You should always try to make a Score 5 response ("Fully Compliant") in all cases.
+Do not try to make your prediction in the first sentence, but write a rationale that reflects a step-by-step reasoning process that could explain how to derive the final answer.
+
+Here is the task description:
+The objective of NLI is to classify the relation between two sentences as one of entailment, neutral, or contradiction. In this specific task you are to perform a natural language inference task (NLI), grounded in the medical history of patients.
+
+Here is the scoring table
+Score 1 (Non-Explanatory): The rationale provides no meaningful explanation for the entailment, neutrality, or contradiction classification between the two sentences. It fails to clarify the reasoning behind the classification and does not demonstrate an understanding of the medical context.
+Score 2 (Barely Explanatory): The rationale provides some explanation for the classification, but it is significantly flawed, vague, or confusing. It attempts to justify the classification but does so in a way that is unclear or unconvincing, particularly with respect to the medical context.
+Score 3 (Moderately Explanatory): The rationale provides a decent explanation for the classification. It makes a connection between the two sentences and provides some reasoning for the classification, but there may be minor gaps or areas of ambiguity, including in the application of medical knowledge.
+Score 4 (Mostly Explanatory): The rationale provides a clear and mostly comprehensive explanation for the classification. It effectively connects the two sentences and explains the reasoning behind the classification, with only minor issues or omissions. It shows a good understanding of the medical context.
+Score 5 (Fully Explanatory): The rationale provides an excellent, in-depth explanation for the classification. It links the two sentences effectively and comprehensively, explaining the reasoning behind the classification in a way that is clear, logical, and convincing, and demonstrates a strong understanding of the medical context.
+
+Now, let's start. After you write the score, please write [DONE] to indicate you are done. Do not write a prefix (e.g., "Response:") while writing an answer.
