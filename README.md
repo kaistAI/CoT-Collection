@@ -9,14 +9,25 @@ Overview of CoT Collection.
 </p>
 
 
-## Download Dataset
-You could use the following google drive link to download CoT Collection.
+## Dataset Access
+You could access CoT Collection via huggingface datasets library as follows:
 ```
-https://drive.google.com/drive/folders/1NoqtRweV6SggEKnDnvJTa-FIvEynkijg?usp=sharing
-```
-Note that we also provide CoT rationales for 5 languages (Korean, Japanese, Chinese, French, Russian). These files include direct instances without CoT rationales.
+from datasets import load_dataset
 
-We're also planning to upload CoT Collection to huggingface datasets, so stay tuned!
+dataset = load_dataset("kaist-ai/CoT-Collection")
+```
+
+## Model Checkpoint Access
+You could access CoT-T5 trained on CoT Collection via huggingface transformers library as follows:
+```
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+tokenizer = AutoTokenizer.from_pretrained("kaist-ai/CoT-T5-11B")
+
+model = AutoModelForSeq2SeqLM.from_pretrained("kaist-ai/CoT-T5-11B")
+```
+
+Note that we have a 11B version and a 3B version of CoT-T5!
 
 
 ## Code
