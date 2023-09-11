@@ -11,18 +11,18 @@ def parse_args():
     parser = argparse.ArgumentParser()
 
 
-    parser.add_argument('--key',type=str,default='./personal_info.json', help='path to json file containing api keys')
+    parser.add_argument('--key',type=str,default='./api_keys.json', help='path to json file containing api keys')
     parser.add_argument('--model_name', type=str, default='code-davinci-002')
     parser.add_argument('--max_tokens', type=int, default=1024)
     parser.add_argument('--temperature', type=float, default=0.7)
     parser.add_argument('--top_p', type=float, default=0.95)
-    parser.add_argument('--num_samples', type=int, default=1)
+    parser.add_argument('--num_samples', type=int, default=5)
     parser.add_argument('--presence_penalty', type=float, default=1.0)
     parser.add_argument('--frequency_penalty', type=float, default=1.0)
 
 
-    parser.add_argument("--data_file", type=str,default="/home/seungone/ART/data_extraction/data/train/cbqa_train_phase1_10000.json",required=True)
-    parser.add_argument('--data_coverage',type=str,choices=['t0','t0p','flan','sni','additional',"few_shot"],default='flan')
+    parser.add_argument("--data_file", type=str,required=True)
+    parser.add_argument('--data_coverage', type=str, choices=['t0','t0p','flan','sni','additional',"few_shot"], default='flan')
     parser.add_argument('--split', type=str, choices=['train','korean','japanese','chinese','french','russian'] , default='train')
     parser.add_argument("--base_dir",type=str, default="./")
     
@@ -32,6 +32,18 @@ def parse_args():
 
 
     args = parser.parse_args()
+
+    if not os.path.exists('./api_keys.json'):
+        ## get api keys from user and save it 
+        api_keys = []
+        while True:
+            key = input("Enter API Key (or 'done' to finish): ")
+            if key.lower() == 'done':
+                break
+            api_keys.append(key)
+        info = {str(idx):api for idx,api in enumerate(api_keys)}
+        with open('./api_keys.json','w') as f:
+            json.dump(info,f,indent=4)
 
     return args
 
@@ -43,7 +55,7 @@ def load_keys(args):
     key = list(key.values())
     return key
 
-def run_llm(key,idx,num_keys):
+def run_llm(key, idx, num_keys):
     args = parse_args()
     data_int = AugmentedDataset(args, idx, num_keys)
     llm = LLM(args, key, data_int)
@@ -61,7 +73,7 @@ def main(args):
         process.join()
 
 
-    total_data = AugmentedDataset(args, 0, 100000)
+    total_data = AugmentedDataset(args, 0, 1)
     total_data.merge_results()
 
 

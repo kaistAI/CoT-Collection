@@ -38,7 +38,7 @@ class LLM:
 
     def configure_savepath(self, category: str, task: str, prompt_name: str) :
 
-        coverage_dir = Path(self.args.base_dir) / 'outputs' / self.args.data_coverage / self.args.model_name
+        coverage_dir = Path("./CoT_Rationale_Augmentation") / 'outputs' / self.args.data_coverage / self.args.model_name
         rat_dir = self.make_dir(coverage_dir / 'rat' / f'temp_{self.args.temperature}' / category / task / prompt_name)
         raw_dir = self.make_dir(coverage_dir / 'raw' / f'temp_{self.args.temperature}' / category / task / prompt_name)
         return rat_dir, raw_dir
@@ -236,32 +236,32 @@ class AugmentedDataset:
         if self.args.data_coverage == 'translation':
             prompt = f"You're the best translator in the world. Given the following question and answer, translate English into {self.args.split}.\n\n"
         elif self.args.data_coverage == 'few_shot':
-            with open(f'./demonstration/few_shot/{category}.txt','r') as f:
+            with open(f'./CoT_Rationale_Augmentation/demonstration/few_shot/{category}.txt','r') as f:
                 prompt = f.read()
         elif self.args.data_coverage =='sni':
-            with open(f"./demonstration/sni/{category}.txt", 'r') as f:
+            with open(f"./CoT_Rationale_Augmentation/demonstration/sni/{category}.txt", 'r') as f:
                 prompt = f.read()
         elif category == 'misc':
-            with open(f"./demonstration/misc/{task}.txt", 'r') as f:
+            with open(f"./CoT_Rationale_Augmentation/demonstration/misc/{task}.txt", 'r') as f:
                 prompt = f.read()
         elif task == 'drop':
-            with open(f"./demonstration/rc/drop.txt", 'r') as f:
+            with open(f"./CoT_Rationale_Augmentation/demonstration/rc/drop.txt", 'r') as f:
                 prompt = f.read()
         elif task == 'aqua':
-            with open(f"./demonstration/math/aqua.txt", 'r') as f:
+            with open(f"./CoT_Rationale_Augmentation/demonstration/math/aqua.txt", 'r') as f:
                 prompt = f.read()
         elif 'nli' in task:
-            with open(f"./demonstration/nli/prompt.txt", 'r') as f:
+            with open(f"./CoT_Rationale_Augmentation/demonstration/nli/prompt.txt", 'r') as f:
                 prompt = f.read()
         elif 'qa' in task:
-            with open(f"./demonstration/exqa/prompt.txt", 'r') as f:
+            with open(f"./CoT_Rationale_Augmentation/demonstration/exqa/prompt.txt", 'r') as f:
                 prompt = f.read()
         else:
             try:
-                with open(f"./demonstration/{category}/prompt.txt", 'r') as f:
+                with open(f"./CoT_Rationale_Augmentation/demonstration/{category}/prompt.txt", 'r') as f:
                     prompt = f.read()
             except:
-                with open(f"./demonstration/mcqa/prompt.txt", 'r') as f:
+                with open(f"./CoT_Rationale_Augmentation/demonstration/mcqa/prompt.txt", 'r') as f:
                     prompt = f.read()
         return prompt
     
@@ -293,10 +293,11 @@ Annotated Rationale:  '''
     def configure_savepath(self,) :
         save_cats = set()
         for i in self.data:
-            coverage_dir = Path(self.args.base_dir) / 'outputs' / self.args.data_coverage / self.args.model_name
+            coverage_dir = Path("./CoT_Rationale_Augmentation") / 'outputs' / self.args.data_coverage / self.args.model_name
             rat_dir = coverage_dir / 'rat' / f'temp_{self.args.temperature}' / i['category'] 
             save_cats.add(rat_dir)
-        merge_dir = Path(self.args.base_dir) / 'merged_outputs' / self.args.data_coverage
+        # merge_dir = Path(self.args.base_dir) / 'merged_outputs' / self.args.data_coverage
+        merge_dir = Path("./CoT_Rationale_Augmentation") / 'data_extraction' / 'train' / self.args.data_coverage / 'rationale_codex'
         merge_dir.mkdir(parents=True, exist_ok=True)
 
         return list(save_cats), merge_dir
@@ -366,11 +367,11 @@ Annotated Rationale:  '''
     def merge_results(self):
         total, new_dir = self.walk_dir()
         for k,v in total.items():
-            category = k.split("/")[-1].split("_")[0]
-            print(k)
-            filename = f"{self.args.split}.json"
+            fn = k.split("/")[-1].split("_")[0]
+            filename = "_".join(fn[1:])
+            # filename = f"{self.args.split}.json"
             
-            with open(new_dir / f"{self.args.data_coverage}_rationale_{category}_{filename}", "w") as f:
+            with open(new_dir / f"code_filter_{filename}", "w") as f:
                 json.dump(v, f, indent=4)
         return "DONE"
 

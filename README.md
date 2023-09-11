@@ -1,5 +1,5 @@
 # CoT-Collection
-Repository for the paper "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning", including 1.88M CoT rationales extracted across 1,060 tasks"
+Repository for the paper "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning", including 1.84M CoT rationales extracted across 1,060 tasks"
 
 Paper Link : https://arxiv.org/abs/2305.14045
 
@@ -21,6 +21,21 @@ We're also planning to upload CoT Collection to huggingface datasets, so stay tu
 
 ## Code
 We'll currently refactoring our code as well! We'll upload it soon:)
+
+
+### Rationale Augmentation
+
+```
+sh scripts/{subset}.sh # flan, sni, t0, t0p, additional
+```
+Rationales for CoTCollection can be obtained by running each script corresponding to the data-subset of CoTCollection.  
+  
+On the first run, you will be asked to provide api keys for OpenAI.  
+These keys will be saved as locally saved as api.json and be reused for future runs.  
+  
+Results,
+- resutls for each instance during the augmentation process will be saved under  "CoT_Rationale_Augmentation/outputs/{subset}/{model_name}/rat/temp_{temperature}/"
+- after all augmentation process is finished the merged data can be found at "data_extraction/data/{split}/{subset}/codex_rationale_{split}_{phase}.json"
 
 
 ## License
