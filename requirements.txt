@@ -2,7 +2,7 @@ pandas
 pyyaml
 jinja2
 datasets
-transformers==4.26.0
+transformers==4.30.0
 #pytorch-lightning==1.5.1
 pytorch-lightning==1.9.0
 wandb
