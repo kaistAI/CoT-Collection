@@ -18,7 +18,7 @@ scikit-learn
 openai
 nltk
 fairscale
-protobuf==3.20.0
+protobuf==3.20.2
 openai
 prettytable
 bert_score
